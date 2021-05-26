@@ -22,7 +22,7 @@ An extended :math:`\Delta v` measure, which is additionally considering the mass
 Joksch [Joksch1993]_ presents a model connecting :math:`\Delta v` to the probability :math:`P` of a two vehicle collision leading to a fatality using
 
 .. math::
-		P(A_1) = \left(\frac{\Delta v}{31.74\text{m}/\text{s}}\right)^4.
+		P(A_1) \approx \left(\frac{\Delta v}{31.74\text{m}/\text{s}}\right)^4.
 
 This connection to an astonishingly simple formula provides an easily interpretable measure.
 
