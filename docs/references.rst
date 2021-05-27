@@ -79,4 +79,4 @@ References
 .. [Zheng2019] L\. Zheng and T. Sayed, “Comparison of traffic conflict indicators for crash estimation using peak over threshold approach,” Transportation Research Record, vol. 2673, no. 5, pp. 493–502, 2019.
 .. [Westhofen2021] L\. Westhofen, C. Neurohr, T. Koopmann, M. Butz, B. U. Schütt, F. Utesch, B. Kramer, C. Gutenkunst, and E. Böde, “Criticality Metrics for Automated Vehicles: A Suitability Analysis”, submitted to the Open Journal of Intelligent Transportation Systems, IEEE, 2021
 
-:math:``
+:math:`\phantom{-}`
