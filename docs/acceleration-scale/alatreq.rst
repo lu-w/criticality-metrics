@@ -1,5 +1,5 @@
-Required Longitudinal Acceleration (:math:`{a}_{\mathit{lat,req}}`)
-===================================================================
+Required Lateral Acceleration (:math:`{a}_{\mathit{lat,req}}`)
+==============================================================
 
 Description
 -----------
