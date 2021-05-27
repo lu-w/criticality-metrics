@@ -1,4 +1,4 @@
-Collision Probability via Monta Carlo (P-MC)
+Collision Probability via Monte Carlo (P-MC)
 ============================================
 
 Description
