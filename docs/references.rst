@@ -2,6 +2,8 @@
 References
 ##########
 
+:math:`x`
+
 .. [Adams1994] L\. D. Adams, “Review of the literature on obstacle avoidance maneuvers: braking versus steering,” tech. rep., University of Michigan, Transportation Research Institute, Aug. 1994.
 .. [Alhajyaseen2013] W\. K. Alhajyaseen, M. Asano, and H. Nakamura, “Left-turn gap acceptance models considering pedestrian movement characteristics,” Accident Analysis \& Prevention, vol. 50, pp. 175–185, 2013.
 .. [Alhajyaseen2015] W\. K. Alhajyaseen, “The integration of conflict probability and severity for the safety assessment of intersections,” Arabian Journal for Science and Engineering, vol. 40, no. 2, pp. 421–430, 2015.
