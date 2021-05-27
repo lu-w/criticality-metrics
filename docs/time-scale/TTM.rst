@@ -12,7 +12,7 @@ Therefore,
 		\mathit{TTM}(A_1,A_2,t,m)  = \max \; (\{ \tilde{t} \in [0,\mathit{TTC}(A_1,A_2,t)] \,\mid\, d(p_{1,m}(t+s),p_2(t+s)) > 0  \; \forall\, s \ge \tilde{t} \} \cup \{-\infty\}).
 
 The TTM can be extended to scenarios by aggregating over time and actors. For analytic purposes, an extension of the output scale to negative values is possible.
-Various special cases of the TTM metric have been considered [Tamke2011]_ [Wagner2018]_ [Junietz2018a]_, including Time To Brake (TTB) [Mages2009]_ (i.e.\ m = 'brake'), Time To Steer (TTS) [Hillenbrand2006]_ (i.e.\ m = 'steer'), and Time To Kickdown (TTK) (i.e.\ m = 'kickdown').
+Various special cases of the TTM metric have been considered [Tamke2011]_ [Wagner2018]_ [Junietz2018a]_, including Time To Brake (TTB) [Mages2009]_ (i.e.\ m = 'brake'), Time To Steer (TTS) [Hillenbrand2006]_ (i.e.\ m = 'steer'), and Time To Kickdown (TTK) [Hillenbrand2006]_ (i.e.\ m = 'kickdown').
 
 Properties
 ----------
