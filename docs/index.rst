@@ -62,7 +62,7 @@ Symbol                                Meaning
 :math:`a_{i,\mathit{min}}(t)`         maximum available deceleration of actor :math:`i` at time :math:`t`
 :math:`j_i(t)`                        jerk of actor :math:`i` at time :math:`t`
 :math:`\nu_\mathit{long}`             longitudinal component of a vector :math:`\nu`
-:math:`\nu_\mathit{lat}`             lateral component of a vector :math:`\nu`
+:math:`\nu_\mathit{lat}`              lateral component of a vector :math:`\nu`
 :math:`u_i(t)`                        control inputs of actor :math:`i` at time :math:`t`
 :math:`\beta_i(t)`                    sideslip angle of actor :math:`i` at time :math:`t`
 :math:`\psi_i(t)`                     yaw angle of actor :math:`i` at time :math:`t`
