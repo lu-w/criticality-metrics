@@ -27,6 +27,7 @@ Abbreviation  Meaning
 ============  ==============================
 AV            Automated Vehicle
 VRU           Vulnerable Road User
+ODD			  Operational Design Domain
 ACC           Adaptive Cruise Control
 AEB           Automated Emergency Braking
 LKAS          Lane Keeping Assistance System

@@ -31,59 +31,60 @@ Properties
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
 
-
+Yes
 
 Target values
 ~~~~~~~~~~~~~
 
-
+Not necessary
 
 Subject type
 ~~~~~~~~~~~~
 
-
+Road vehicles (esp. suitable for automated vehicles, but also possible to evaluate human drivers)
 
 Scenario type
 ~~~~~~~~~~~~~
 
-
+RSS ODD (also suited for urban, unstructured scenarios)
 
 Inputs
 ~~~~~~
 
-
+:math:`d^\mathit{lat}(A_1, A_i)` and :math:`d^\mathit{long}(A_1, A_i)` for all :math:`A_1 \neq A_i`, response time :math:`\rho` and other inputs required to predict :math:`d^\mathit{lat}_\mathit{min}` and :math:`d^\mathit{long}_\mathit{min}`
 
 Output scale
 ~~~~~~~~~~~~
 
-
+:math:`\{0,1\}`, number, nominal scale
 
 Reliability
 ~~~~~~~~~~~
 
-
+Medium, the nominal nature of the metric's scale can lead to fluctuations if vehicles exist close the boundaries of the safe distancesMedium, the nominal nature of the metric's scale can lead to fluctuations if vehicles exist close the boundaries of the safe distances
 
 Validity
 ~~~~~~~~
 
-
+High, depending mainly on the validity of the safe distance definition of the scenario (e.g. highways or unstructured roads) [Chai2019]_
 
 Sensitivity
 ~~~~~~~~~~~
 
-
+High, due to over-approximation of safe space [Chai2019]_, although reduced for edge cases [Koopman2019]_
 
 Specificity
 ~~~~~~~~~~~
 
-
+Medium, as not every violation of a safe space directly implies high criticality [Chai2019]_, but depends on the definition of the safe distances
 
 Prediction model
 ~~~~~~~~~~~~~~~~
 
 Time window
 ^^^^^^^^^^^
-
+Depends on model for :math:`d_\mathit{min}` prediction, for single lane roads :math:`\rho + \mathit{TTB}`
 
 Time mode
 ^^^^^^^^^
+Linear time

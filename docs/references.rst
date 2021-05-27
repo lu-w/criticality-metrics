@@ -17,6 +17,7 @@ References
 .. [Broadhurst2005] A\. Broadhurst, S. Baker, and T. Kanade, “Monte Carlo road safety reasoning,” in IEEE Proceedings. Intelligent Vehicles Symposium, pp. 319–324, IEEE, 2005.
 .. [Cafiso2011] S\. Cafiso, A. G. Garcia, R. Cavarra, and M. R. Rojas, “Crosswalk safety evaluation using a pedestrian risk index as traffic conflict measure,” in Proceedings of the 3rd International Conference on Road safety and Simulation, pp. 1–15, 2011.
 .. [Carlson1979] W\. L. Carlson, “Crash injury prediction model,” Accident Analysis \& Prevention, vol. 11, no. 2, pp. 137–153, 1979.
+.. [Chai2019] C\. Chai, X. Zeng, X. Wu, and X. Wang, “Safety evaluation of responsibility-sensitive safety (RSS) on autonomous car-following maneuvers based on surrogate safety measurements,” in 22nd International Conference on Intelligent Transportation Systems (ITSC), pp. 175–180, IEEE, 2019.
 .. [Cunto2007] F\. J. C. Cunto and F. F. Saccomanno, “Microlevel traffic simulation method for assessing crash potential at intersections,” in Proceedings of the 86th Annual Meeting of the Transportation Research Board, 2007.
 .. [Cunto2008] F\. Cunto and F. F. Saccomanno, “Calibration and validation of simulated vehicle safety performance at signalized intersections,” Accident Analysis \& prevention, vol. 40, no. 3, pp. 1171–1179, 2008.
 .. [Eggert2014] J\. Eggert, “Predictive risk estimation for intelligent ADAS functions,” in 17th International Conference on Intelligent Transportation Systems (ITSC), pp. 711–718, IEEE, 2014.
