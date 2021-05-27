@@ -2,8 +2,6 @@
 References
 ##########
 
-:math:`x`
-
 .. [Adams1994] L\. D. Adams, “Review of the literature on obstacle avoidance maneuvers: braking versus steering,” tech. rep., University of Michigan, Transportation Research Institute, Aug. 1994.
 .. [Alhajyaseen2013] W\. K. Alhajyaseen, M. Asano, and H. Nakamura, “Left-turn gap acceptance models considering pedestrian movement characteristics,” Accident Analysis \& Prevention, vol. 50, pp. 175–185, 2013.
 .. [Alhajyaseen2015] W\. K. Alhajyaseen, “The integration of conflict probability and severity for the safety assessment of intersections,” Arabian Journal for Science and Engineering, vol. 40, no. 2, pp. 421–430, 2015.
@@ -80,3 +78,5 @@ References
 .. [Wolf2018] M\. T. Wolf and J. W. Burdick, “Artificial potential functions for highway driving with collision avoidance,” in 2008 IEEE International Conference on Robotics and Automation, pp. 3731–3736, IEEE, 2008.
 .. [Zheng2019] L\. Zheng and T. Sayed, “Comparison of traffic conflict indicators for crash estimation using peak over threshold approach,” Transportation Research Record, vol. 2673, no. 5, pp. 493–502, 2019.
 .. [Westhofen2021] L\. Westhofen, C. Neurohr, T. Koopmann, M. Butz, B. U. Schütt, F. Utesch, B. Kramer, C. Gutenkunst, and E. Böde, “Criticality Metrics for Automated Vehicles: A Suitability Analysis”, submitted to the Open Journal of Intelligent Transportation Systems, IEEE, 2021
+
+:math:``
