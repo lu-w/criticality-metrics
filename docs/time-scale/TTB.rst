@@ -17,7 +17,7 @@ Yes
 Target values
 ~~~~~~~~~~~~~
 
-0.3 s, 0.4 s [Tamke2011]_ (point of no return), 1 s [Junietz2018a]_ [Huber2020]_ (threshold for critical)
+0.4 s [Tamke2011]_ (selection of a minimal risk maneuver), 1 s [Junietz2018a]_ [Huber2020]_ (threshold for critical)
 
 Subject type
 ~~~~~~~~~~~~

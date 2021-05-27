@@ -4,7 +4,7 @@ Time To Zebra (TTZ)
 Description
 -----------
 
-Defined by Várhelyi et al., TTZ measures the time until an actor :math:`A_1` reaches a zebra crossing :math:`\mathit{CA}` [Varhelyi1998], hence
+Defined by Várhelyi et al., TTZ measures the time until an actor :math:`A_1` reaches a zebra crossing :math:`\mathit{CA}` [Varhelyi1998]_, hence
 
 .. math::
 		\mathit{TTZ}(A_1,\mathit{CA},t)  = \min \; (\{ \tilde{t} \ge 0 \,\mid\, d(p_1(t+\tilde{t}), p_{\mathit{CA}}(t+\tilde{t})) = 0 \} \cup\ \{ \infty \}).
