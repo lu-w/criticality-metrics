@@ -8,7 +8,7 @@ The PSD metric, proposed by Allen et al., is defined as the distance to a confli
 Therefore,
 
 .. math::
-		\mathit{PSD}(A_1,\mathit{CA},t) = \frac{d(p_1(t),p_\mathit{CA}(t))}{\text{MSD}(A_1,t)} \text{, } \text{MSD}(A_1,t) = \frac{\|v_1(t)\|_2^2}{2a_{1,\mathit{long,min}}(t)}\,.
+		\mathit{PSD}(A_1,\mathit{CA},t) = \frac{d(p_1(t),p_\mathit{CA}(t))}{\text{MSD}(A_1,t)} \text{, } \text{MSD}(A_1,t) = \frac{\|v_1(t)\|_2^2}{2|a_{1,\mathit{long,min}}(t)|}\,.
 
 Properties
 ----------

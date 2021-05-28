@@ -9,7 +9,7 @@ It thus presents as a suitable factor that can enhance various collision probabi
 From the perspective of a distinguished actor :math:`A_1` in a scenario :math:`\mathit{Sc}` with an evasive maneuver of :math:`A_1` at :math:`t_\mathit{evasive}`, it is defined as
 
 .. math::
-		\mathit{CS}(A_1, A_2) = \Delta v(A_1, A_2, t_\mathit{evasive}) - \left( \mathit{TTA}(A_1, A_2) \cdot a_{1,\mathit{min}}(t_\mathit{evasive}) \cdot \frac{m_2}{m_1 + m_2} \right) .
+		\mathit{CS}(A_1, A_2) = \Delta v(A_1, A_2, t_\mathit{evasive}) - \left( \mathit{TTA}(A_1, A_2) \cdot \|a_{1}(t_\mathit{evasive})\|_2 \cdot \frac{m_2}{m_1 + m_2} \right) .
 
 Thus, it compares the (extended) :math:`\Delta v`, as described above, at time of the evasive maneuver against the :math:`\Delta v` of :math:`A_1` and :math:`A_2` at the potential collision point as predicted by TTA if :math:`A_1` conducts an emergency braking maneuver, assuming :math:`v_2(t_\mathit{evasive} + \mathit{TTA}(A_1, A_2)) = 0`.
 It was found that severe injuries and fatality outcome of a collision, measured on the Abbreviated Injury Scale, is highly correlated with the mass ratio of the involved actors [Evans1994]_.

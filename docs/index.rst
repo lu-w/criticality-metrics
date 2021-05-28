@@ -59,7 +59,8 @@ Symbol                                Meaning
 :math:`\dot{d}(p_1(t),p_2(t))`        derivative of euclidean distance :math:`d`
 :math:`v_i(t)`                        velocity of actor :math:`i` at time :math:`t`
 :math:`a_i(t)`                        acceleration of actor :math:`i` at time :math:`t`
-:math:`a_{i,\mathit{min}}(t)`         maximum available deceleration of actor :math:`i` at time :math:`t`
+:math:`a_{i,\mathit{min}}(t)`         minimal available acceleration of actor :math:`i` at time :math:`t`
+:math:`a_{i,\mathit{max}}(t)`         maximal available acceleration of actor :math:`i` at time :math:`t`
 :math:`j_i(t)`                        jerk of actor :math:`i` at time :math:`t`
 :math:`\nu_\mathit{long}`             longitudinal component of a vector :math:`\nu`
 :math:`\nu_\mathit{lat}`              lateral component of a vector :math:`\nu`
@@ -77,8 +78,9 @@ Symbol                                Meaning
 :math:`I_{iz}`                        moment of inertia of actor :math:`i`
 :math:`\delta_{if}`                   front steering angle at the tires of actor :math:`i`
 :math:`\tau`                          target value
-:math:`\text{agg}`                    an aggregate function
 :math:`\|\cdot\|_2`                   the euclidean norm
+:math:`\nu_{\mathit{long}}`           longitudinal component of a vector :math: `\nu`
+:math:`\nu_{\mathit{lat}}`            lateral component of a vector :math: `\nu`
 ====================================  ================================================================================
 
 Metrics

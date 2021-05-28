@@ -17,7 +17,7 @@ The PRI thus quantifies over two aspects of a whole scenario: the temporal diffe
 One possibility of estimating :math:`s_\mathit{imp}` is defined by the authors as
 
 .. math::
-		s_\mathit{imp}(A_1, \mathit{CA}, t) = \sqrt{\|v_1(t)\|_2^2-2a_{1,\mathit{long,min}}(t) (d(p_1(t),p_\mathit{CA}(t)) - \|v_1(t)\|_2 t^r_1)} \text{,}
+		s_\mathit{imp}(A_1, \mathit{CA}, t) = \sqrt{\|v_1(t)\|_2^2+2a_{1,\mathit{long,min}}(t) (d(p_1(t),p_\mathit{CA}(t)) - \|v_1(t)\|_2 t^r_1)} \text{,}
 
 where :math:`t_i^r` is the reaction time of actor :math:`A_i`.
 Note that depending on the DMM, other formulae for :math:`s_\mathit{imp}` may be employed.

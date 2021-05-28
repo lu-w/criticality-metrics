@@ -4,7 +4,8 @@ Steer Threat Number (STN)
 Description
 -----------
 
-Analogously to the BTN, for two actors in a scene, the STN [Jansson2005]_ [Eidehall2011]_ is defined as the required lateral acceleration divided by the lateral acceleration that is at most available to the actors in that scene, i.e.
+Similar to the BTN, for two actors at time :math: `t`, the STN [Jansson2005]_ [Eidehall2011]_ is defined as the required lateral acceleration divided by the lateral acceleration that is at most available to 
+:math: `A_1` in that direction in that scene, i.e.
 
 .. math::
 		\mathit{STN}(A_1,A_2,t) = \frac{{a}_{\mathit{lat,req}}(A_1,A_2,t)}{a_{1,\mathit{lat,min}}(t)}.

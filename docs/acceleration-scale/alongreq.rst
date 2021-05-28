@@ -17,7 +17,7 @@ An interesting special case, cf. [Jansson2005]_, is exhibited when constant acce
 		{a}_{\mathit{long,req}}(A_1, A_2, t) = \min\Big(a_{2,\mathit{long}} - \frac{3(v_{1,\mathit{long}}(t)-v_{2,\mathit{long}}(t))^2}{2d(p_1(t),p_2(t))}, 0\Big)\,.
 
 For constant acceleration, the concept of :math:`{a}_{\mathit{long,req}}` is also known under the term Deceleration Rate To Avoid Crash (DRAC) [Archer2005]_.
-The :math:`{a}_{\mathit{lat,req}}` metric can be defined similarly [Jansson2005]_ and examines the acceleration required for a lateral maneuver to evade collision.
+Similarly, the :math:`{a}_{\mathit{lat,req}}` metric [Jansson2005]_ is defined as the minimal absolute lateral acceleration required for a steering maneuver to evade collision.
 
 Properties
 ----------
