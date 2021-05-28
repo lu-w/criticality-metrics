@@ -6,12 +6,12 @@ Description
 
 The AGS is a quantity which can be used to measure the complexity of a traffic situation.
 In general it quantifies the gap or the actual space between actors desired or required for others to make a positive action decision.
-Therefore, for a given scene :math:`S` and an actor :math:`A_1`, its model approximates the temporal or spatial distance that is predicted to be required for the action of :math:`A_1`, i.e.
+Therefore, for a given actor :math:`A_1` at time :math:`t`, its model approximates the temporal or spatial distance that is predicted to be required for the action of :math:`A_1`, i.e.
 
 .. math::
-		\mathit{AGS}(S, A_1) = \min \{ s \geq 0\, |\, \mathit{action}(S, A_1, s) = 1 \},
+		\mathit{AGS}(A_1, t) = \min \{ s \geq 0\, |\, \mathit{action}(A_1, t, s) = 1 \},
 
-where :math:`\mathit{action(S, A_1, s)}` is a (complex) model predicting on a binary scale, based on the circumstances in the scene :math:`S` at time :math:`t`, whether :math:`A_1` will come to positive action decision for the gap size :math:`s`.
+where :math:`\mathit{action(A_1, t, s)}` is a (complex) model predicting on a binary scale, based on the circumstances at time :math:`t`, whether :math:`A_1` will come to positive action decision for the gap size :math:`s`.
 
 This model can for example refer to the size of the gap in a stream of pedestrians passing a crosswalk, which is required for a waiting driver to decide to cut in and continue.
 For a time dependent distance measure, the metric is also called the accepted lag size.
