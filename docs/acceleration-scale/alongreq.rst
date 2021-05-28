@@ -8,7 +8,7 @@ For two actors :math:`A_1`, :math:`A_2` at time :math:`t` :math:`{a}_{\mathit{lo
 It can be formalized as
 
 .. math::
-		{a}_{\mathit{long,req}}(A_1, A_2, t) = \max \{ a_{1,\mathit{long}} \le 0 ~|~\forall \, \tilde{t} > 0: d(p_1(t+\tilde{t}),p_2(t+\tilde{t})) > 0\}\,.
+		{a}_{\mathit{long,req}}(A_1, A_2, t) = \max \{ a_{1,\mathit{long}} \le 0 ~|~\forall \, \tilde{t} \ge 0: v_{1,\mathit{long}}(t+\tilde{t}) \ge 0 \land d(p_1(t+\tilde{t}),p_2(t+\tilde{t})) > 0\}\,.
 
 The :math:`{a}_{\mathit{long,req}}` can be adapted for the situation where the acceleration of :math:`A_1` needs to be positive in order to avoid a collision by taking the minimum :math:`a_{1,\mathit{long}} \ge 0` instead.
 An interesting special case, cf. [Jansson2005]_, is exhibited when constant acceleration of the actors is assumed, resulting in
