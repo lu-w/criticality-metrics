@@ -45,7 +45,8 @@ This list is finite due to the piecewise constant partitions.
 Under the assumption of stochastic independence and using the previous concepts, we then have :math:`p^{pos}_{ef} = p^{path}_e \cdot p^{dev}_f`, hence leading to the collision probability
 
 .. math::
-		\mathit{P}\text{-}\mathit{SRS} = p^{col} = \sum\limits_{(g,h,e,f) \in \Omega} \hat{p}^{pos}_{gh} \cdot p^{pos}_{ef}.
+		\mathit{P}\text{-}\mathit{SRS}(A_1, S, t) = p^{col} = \sum\limits_{(g,h,e,f) \in \Omega} \hat{p}^{pos}_{gh} \cdot p^{pos}_{ef}.
+
 
 Properties
 ----------
