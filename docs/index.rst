@@ -15,7 +15,7 @@ Among others, we consider the metrics' target values, scenario types, specificit
 Definitions of the properties are given in the reference.
 
 .. note::
-  Please note that when applying one or multiple of the described metrics in a practical, concrete setting, a detailed analysis of the specific use case at hand is mandatory.
+  Please note that when applying one or multiple of the described metrics in a practical, concrete setting, a detailed analysis of the specific application at hand is mandatory.
 
 Abbreviations
 ~~~~~~~~~~~~~
