@@ -29,9 +29,9 @@ The safety potential can hence rate a two-actor scene from one of their perspect
 As an example, the authors define the following implementation of a safety potential for some :math:`k \in \mathbb{Z}_{>0} \cup \{\infty\}`:
 
 .. math::
-		\mathit{SP}(A_1, A_2, t) = \rho_{1,2} = \| (t_\mathit{stop}(A_1) - p_t, t_\mathit{stop}(A_2) - p_t) \|_k
+		\mathit{SP}(A_1, A_2, t) = \rho_{1,2} = \| (t_\mathit{stop}(A_1) - t_\mathit{int}, t_\mathit{stop}(A_2) - t_\mathit{int}) \|_k
 
-where :math:`p_t` is the time of the earliest intersection point when continuing the current dynamic situation under some model, and :math:`t_\mathit{stop}(A_i)` is the time of full stop of actor :math:`A_i` after applying a safety procedure.
+where :math:`t_{int}` is the time of the earliest intersection point when continuing the current dynamic situation under some model, and :math:`t_\mathit{stop}(A_i)` is the time of full stop of actor :math:`A_i` after applying a safety procedure.
 Note that this framework can be extended with various more complex safety potentials [Nister2019]_.
 Downstream, SFF uses the gradient of the safety potential to optimize for a safe control policy, if necessary.
 
