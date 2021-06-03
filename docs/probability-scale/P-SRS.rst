@@ -25,7 +25,7 @@ not accounting for the discrete time aspect at this point [Althoff2009]_.
 The transition probabilities can then be used to obtain the probability distribution for the time intervals by
 
 .. math::
-		p(t_{k+1}) = \Phi^\alpha(T) \cdot p(t_k)\,, \\ p([t_k, t_{k+1}]) = \Phi^\alpha([0,T]) \cdot p(t_k)
+		p(t_{k+1}) = \Phi^\alpha(T) \cdot p(t_k)\, p([t_k, t_{k+1}]) = \Phi^\alpha([0,T]) \cdot p(t_k)
 
 again simplified for readability.
 Behaviors of other actor are modeled as Markov chains on the control input space of the motion models.
