@@ -79,8 +79,8 @@ Symbol                                Meaning
 :math:`\delta_{if}`                   front steering angle at the tires of actor :math:`i`
 :math:`\tau`                          target value
 :math:`\|\cdot\|_2`                   the euclidean norm
-:math:`\nu_{\mathit{long}}`           longitudinal component of a vector :math: `\nu`
-:math:`\nu_{\mathit{lat}}`            lateral component of a vector :math: `\nu`
+:math:`\nu_{\mathit{long}}`           longitudinal component of a vector :math:`\nu`
+:math:`\nu_{\mathit{lat}}`            lateral component of a vector :math:`\nu`
 ====================================  ================================================================================
 
 Metrics
