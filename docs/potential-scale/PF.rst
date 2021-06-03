@@ -15,7 +15,9 @@ A simple example of how to evaluate this metric for an actor :math:`A_1` and a g
 However, methods involving the above mentioned gradient descent to assess the criticality will likely improve the precision and also provide a direction in which the vehicle should move to decrease the criticality.
 
 Due to the way this metric is defined, almost all properties depend on the specified potential functions.
-While ethical questions play a role when defining any safety surrogate, it becomes more evident for potential functions, as an active decision making in the definition of the potentials is required.
+
+..
+		While ethical questions play a role when defining any safety surrogate, it becomes more evident for potential functions, as an active decision making in the definition of the potentials is required.
 
 Properties
 ----------
