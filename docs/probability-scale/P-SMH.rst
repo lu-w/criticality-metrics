@@ -11,7 +11,7 @@ Pedestrians are modeled to be able to change directory, velocity, and accelerati
 Once the number :math:`N` of trajectories for the ego and total number :math:`M` of trajectories of all other actors is determined, one can compute the collision probability as
 
 .. math::
-		\acs{P-SMH}(A_1, \mathcal{A}, t) = \sum\limits_{i=1}^N\sum\limits_{j=1}^M \chi^i_j p_{\mathit{A_1}, i} p_{{(\mathcal{A} \setminus A_1)}, j}\ ,
+		\mathit{P}\text{-}\mathit{SMH}(A_1, \mathcal{A}, t) = \sum\limits_{i=1}^N\sum\limits_{j=1}^M \chi^i_j p_{\mathit{A_1}, i} p_{{(\mathcal{A} \setminus A_1)}, j}\ ,
 
 where :math:`\chi^i_j` equals one if and only if the :math:`i`-th ego trajectory and the :math:`j`-th actor trajectory leads to a collision, and :math:`p_{\mathit{ego}, i}` and :math:`p_{\mathit{tp}, j}` are the probabilities of the trajectories being realized.
 
