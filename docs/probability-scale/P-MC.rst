@@ -37,7 +37,7 @@ where :math:`k` denotes the number of objects, the probability of a collision is
 
 
 .. math::
-		\acs{P-MC}(A_1, S, t) = P(\mathcal{C}) = \int P(\mathcal{C}~|~\mathcal{U}) P(\mathcal{U}) d\mathcal{U}\ ,
+		\mathit{P}\text{-}\mathit{MC}(A_1, S, t) = P(\mathcal{C}) = \int P(\mathcal{C}~|~\mathcal{U}) P(\mathcal{U}) d\mathcal{U}\ ,
 
 with :math:`P(\mathcal{C}~|~\mathcal{U})` being the collision probability of :math:`A_1` in :math:`S` under the given inputs :math:`\mathcal{U}`.
 
