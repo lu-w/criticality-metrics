@@ -25,7 +25,7 @@ not accounting for the discrete time aspect at this point [Althoff2009]_.
 The transition probabilities can then be used to obtain the probability distribution for the time intervals by
 
 .. math::
-		p(t_{k+1}) = \Phi^\alpha(T) \cdot p(t_k)\,, \\ p([t_k, t_{k+1}]) = \Phi^\alpha([0,T]) \cdot p(t_k)
+		p(t_{k+1}) = \Phi^\alpha(T) \cdot p(t_k)\, p([t_k, t_{k+1}]) = \Phi^\alpha([0,T]) \cdot p(t_k)
 
 again simplified for readability.
 Behaviors of other actor are modeled as Markov chains on the control input space of the motion models.
@@ -45,7 +45,8 @@ This list is finite due to the piecewise constant partitions.
 Under the assumption of stochastic independence and using the previous concepts, we then have :math:`p^{pos}_{ef} = p^{path}_e \cdot p^{dev}_f`, hence leading to the collision probability
 
 .. math::
-		\mathit{P}\text{-}\mathit{SRS} = p^{col} = \sum\limits_{(g,h,e,f) \in \Omega} \hat{p}^{pos}_{gh} \cdot p^{pos}_{ef}.
+		\mathit{P}\text{-}\mathit{SRS}(A_1, S, t) = p^{col} = \sum\limits_{(g,h,e,f) \in \Omega} \hat{p}^{pos}_{gh} \cdot p^{pos}_{ef}.
+
 
 Properties
 ----------

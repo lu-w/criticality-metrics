@@ -10,7 +10,7 @@ The scenario shall include a unique and coherent conflict period :math:`[t_{c_\m
 Here, :math:`t_s(A_1, t)` is the time :math:`A_1` needs to come to a full stop at time :math:`t`, including its reaction time, leading to
 
 .. math::
-		\mathit{PRI}(A_1, P, \mathit{CA}) = \int_{t_\mathit{c_\mathit{start}}}^{t_{c_\mathit{stop}}}(s_{imp}(A_1, \mathit{CA}, t)^2 \cdot (t_s(A_1, t) - \mathit{TTZ}(A_1, \mathit{CA}, t))) \mathrm{dt},
+		\mathit{PRI}(A_1, \mathit{CA}) = \int_{t_\mathit{c_\mathit{start}}}^{t_{c_\mathit{stop}}}(s_{imp}(A_1, \mathit{CA}, t)^2 \cdot (t_s(A_1, t) - \mathit{TTZ}(A_1, \mathit{CA}, t))) \mathrm{dt},
 
 where :math:`s_\mathit{imp}` is the predicted speed at the time of contact with the pedestrian crossing.
 The PRI thus quantifies over two aspects of a whole scenario: the temporal difference is claimed to be a surrogate for the accident probability, whereas the impact speed is approximate for its severity.
