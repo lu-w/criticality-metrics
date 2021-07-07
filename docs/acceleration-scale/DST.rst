@@ -8,7 +8,7 @@ For an actor :math:`A_1` following another actor :math:`A_2`, the DST metric cal
 The corresponding formula can be written as
 
 .. math::
-		\mathit{DST}(A_1,A_2,t,t_s)  = \frac{3(v_{1,\mathit{long}}(t) - v_{2,\mathit{long}}(t))^2}{2(d(p_1(t),p_2(t)) - v_{2,\mathit{long}}(t) \cdot t_s)}
+		\mathit{DST}(A_1,A_2,t,t_s)  = \frac{(v_{1,\mathit{long}}(t) - v_{2,\mathit{long}}(t))^2}{2(d(p_1(t),p_2(t)) - v_{2,\mathit{long}}(t) \cdot t_s)}
 
 and extends the concept of the :math:`{a}_{\mathit{long,req}}` by requiring deceleration to a safety distance :math:`v_{2,\mathit{long}}(t) \cdot t_s`, under the assumptions of constant velocity of :math:`A_2`, i.e. :math:`a_2=0`.
 In particular, for :math:`t_s = 0`, the DST agrees with the constant acceleration version of the :math:`{a}_{\mathit{long,req}}` metric.
