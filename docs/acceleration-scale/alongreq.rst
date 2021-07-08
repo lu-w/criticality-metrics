@@ -4,17 +4,17 @@ Required Longitudinal Acceleration (:math:`{a}_{\mathit{long,req}}`)
 Description
 -----------
 
-For two actors :math:`A_1`, :math:`A_2` at time :math:`t` :math:`{a}_{\mathit{long,req}}` measures the negative longitudinal acceleration required by actor :math:`A_1` to avoid a collision in the future.
+For two actors :math:`A_1`, :math:`A_2` at time :math:`t`, :math:`{a}_{\mathit{long,req}}` measures the average negative longitudinal acceleration required by actor :math:`A_1` to avoid a collision in the future.
 It can be formalized as
 
 .. math::
-		{a}_{\mathit{long,req}}(A_1, A_2, t) = \max \{ a_{1,\mathit{long}} \le 0 ~|~\forall \, \tilde{t} \ge 0: v_{1,\mathit{long}}(t+\tilde{t}) \ge 0 \land d(p_1(t+\tilde{t}),p_2(t+\tilde{t})) > 0\}\,.
+		{a}_{\mathit{long,req}}(A_1, A_2, t) = \max \{ a_{1,\mathit{long}} \le 0 ~|~\forall \, \tilde{t} \ge 0: d(p_1(t+\tilde{t}),p_2(t+\tilde{t})) > 0\}\,.
 
 The :math:`{a}_{\mathit{long,req}}` can be adapted for the situation where the acceleration of :math:`A_1` needs to be positive in order to avoid a collision by taking the minimum :math:`a_{1,\mathit{long}} \ge 0` instead.
 An interesting special case, cf. [Jansson2005]_, is exhibited when constant acceleration of the actors is assumed, resulting in
 
 .. math::
-		{a}_{\mathit{long,req}}(A_1, A_2, t) = \min\Big(a_{2,\mathit{long}} - \frac{3(v_{1,\mathit{long}}(t)-v_{2,\mathit{long}}(t))^2}{2d(p_1(t),p_2(t))}, 0\Big)\,.
+		{a}_{\mathit{long,req}}(A_1, A_2, t) = \min\Big(a_{2,\mathit{long}} + \frac{(v_{1,\mathit{long}}(t)-v_{2,\mathit{long}}(t))^2}{2d(p_1(t),p_2(t))}, 0\Big)\,.
 
 For constant acceleration, the concept of :math:`{a}_{\mathit{long,req}}` is also known under the term Deceleration Rate To Avoid Crash (DRAC) [Archer2005]_.
 Similarly, the :math:`{a}_{\mathit{lat,req}}` metric [Jansson2005]_ is defined as the minimal absolute lateral acceleration required for a steering maneuver to evade collision.
