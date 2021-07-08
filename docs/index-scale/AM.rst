@@ -4,7 +4,7 @@ Accident Metric (AM)
 Description
 -----------
 
-The binary AM evaluates whether an accident happened during a given scenario:
+AM evaluates whether an accident happened in a scenario:
 
 .. math::
 		\mathit{AM}(\mathit{Sc}) =
@@ -15,7 +15,7 @@ The binary AM evaluates whether an accident happened during a given scenario:
 
 This simplistic metric is implicitly used in accident databases, such as `GIDAS
 <https://www.gidas.org/>`_.
-It of course fails to identify any critical non-accident scenarios.
+It fails to identify critical non-accident scenarios.
 
 Properties
 ----------

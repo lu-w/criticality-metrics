@@ -1,13 +1,12 @@
+
 Delta-v (:math:`\Delta v`)
 ==========================
 
 Description
 -----------
 
-:math:`\Delta v` is the change in speed over collision duration (integral) and widely used in collision databases, where it is typically calculated from post-collision measurements [Gabauer2006]_.
-The measure itself has been introduced in the 1970s by Carlson [Carlson1979]_, who used the difference in speed to estimate the probability of a severe injury or fatality.
-The simplest formula measures the speed before and after a collision:
-
+:math:`\Delta v` is the change in speed over collision duration and widely used in collision databases, where it is typically calculated from post-collision measurements [Gabauer2006]_.
+Introduced in the 1970s [Carlson1979]_, it uses the difference in speed to estimate the probability of a severe injury or fatality:
 .. math::
 		\Delta v(A_1) = \|v_1(t_\mathit{aftercol})\|_2-\|v_1(t_\mathit{beforecol})\|_2.
 
@@ -24,7 +23,7 @@ Joksch [Joksch1993]_ presents a model connecting :math:`\Delta v` to the probabi
 .. math::
 		P(A_1) \approx \left(\frac{\Delta v}{31.74\text{m}/\text{s}}\right)^4.
 
-This connection to an astonishingly simple formula provides an easily interpretable measure.
+This connection provides an easily interpretable measure.
 
 Properties
 ----------
