@@ -11,7 +11,7 @@ From the perspective of an actor :math:`A_1` performing a braking maneuver at ti
 .. math::
 		\mathit{CS}(A_1, A_2) = \Delta v(A_1, A_2, t_\mathit{evasive}) - \left( \mathit{TTA}(A_1, A_2) \cdot \|a_{1}(t_\mathit{evasive})\|_2 \cdot \frac{m_2}{m_1 + m_2} \right) .
 
-Thus, it compares the (extended) :math:`\Delta v` at time of the evasive maneuver against the \acs{DeltaV} at the potential collision point as predicted by TTA if :math:`A_1` conducts an emergency braking, assuming :math:`v_2(t_\mathit{evasive} + \mathit{TTA}(A_1, A_2)) = 0`. 
+Thus, it compares the (extended) :math:`\Delta v` at time of the evasive maneuver against the :math:`\Delta v` at the potential collision point as predicted by TTA if :math:`A_1` conducts an emergency braking, assuming :math:`v_2(t_\mathit{evasive} + \mathit{TTA}(A_1, A_2)) = 0`. 
 CS factors in the relative mass difference due to the correlation between severe injuries and fatality outcome, measured on the Abbreviated Injury Scale, and the mass ratio of the involved actors [Evans1994]_.
 
 Properties
