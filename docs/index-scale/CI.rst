@@ -4,17 +4,18 @@ Conflict Index (CI)
 Description
 -----------
 
-The conflict index has been proposed by Alhajyaseen to enhance the PET metric with a collision probability estimation as well as a severity factor [Alhajyaseen2015]_.
+The conflict index enhances the \acs{PET} metric with a collision probability estimation as well as a severity factor [Alhajyaseen2015]_.
 For this, the estimated kinetic energy that would have been released assuming a hypothetical collision between :math:`A_1` and :math:`A_2` at their states when entering (:math:`A_2`) resp. exiting (:math:`A_1`) the conflict area is estimated:
 
 .. math::
 		\mathit{CI}(A_1, A_2, \mathit{CA}, \alpha, \beta) = \frac{\alpha \Delta K_e}{e^{\beta \mathit{PET}(A_1, A_2, \mathit{CA})}}
 
 where the denominator is a collision probability estimation.
+
 Therefore, it is proposed that the actual collision probability is proportional to :math:`e^{- \beta \mathit{PET}(A_1, A_2, \mathit{CA})}` with :math:`\beta` being a calibration factor dependent on the scenario factors, e.g. country, road geometry, or visibility and :math:`[\beta] = \text{s}^{-1}`.
 The nominator represents a collision severity measure, where :math:`\alpha \in [0,1]` is again a calibration factor for the proportion of energy that is transferred from the vehicle's body to its passengers and :math:`\Delta K_e` is the predicted absolute change in kinetic energy before and after the predicted collision.
 
-In order to estimate :math:`\Delta K_e`, the vehicles' velocities and angles at time of entering (:math:`A_2`) resp. exiting (:math:`A_1`) the conflict area and their masses are considered.
+:math:`\Delta K_e` is estimated based on the masses as well as velocities and angles at time of entering (:math:`A_2`) resp. exiting (:math:`A_1`) the conflict area.
 
 Properties
 ----------

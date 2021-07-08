@@ -4,8 +4,8 @@ Trajectory Criticality Index (TCI)
 Description
 -----------
 
-For the TCI metric, Junietz et al. propose to measure criticality by solving an optimization problem [Junietz2018]_.
-This problem is formalized to find a minimum difficulty value, i.e. check how demanding even the easiest option for the vehicle will be under a certain set of physical and regulatory constraints.
+The \ac{TCI} metric models criticality using an optimization problem [Junietz2018]_.
+The task is to find a minimum difficulty value, i.e. how demanding even the easiest option for the vehicle will be under a set of physical and regulatory constraints. 
 For example, if the constraint is to avoid obstacles, then driving straight towards an obstacle and being only a few seconds away requires a large change in steering angle and acceleration to satisfy the constraint of collision avoidance.
 
 Here, the possible set of vehicle actions are not only constrained by physically possible behavior; it additionally shall adhere to a mathematically modeled set of requirements.
@@ -13,13 +13,11 @@ Said requirements are based on the necessary longitudinal (:math:`a_x`) and late
 Since both :math:`R_x` and :math:`R_y` are dependent on :math:`a_x` and :math:`a_y`, it suffices to minimize the combined function w.r.t. :math:`a_x` and :math:`a_y`.
 The requirements include concepts such as holding a safe following distance and maximizing distance to obstacles.
 
-The modeled vehicle behaves according to Kamm's circle, which is approximated using 12 linear constraints, not stated here.
-For a scene :math:`S` with an ego vehicle :math:`A_1`, the problem statements reads as following:
-
+Assuming the vehicle behaves according to Kamm's circle, \acs{TCI} for a scene $S$ with an ego vehicle $A_1$ reads as
 .. math::
 		\mathit{TCI}(A_1,S,t,t_H) = \min_{a_x, a_y} \sum_{\tilde{t}=t}^{t+t_H} w_x R_x(\tilde{t}) + w_y R_y^2(\tilde{t}) + \frac{w_{\mathit{ax}} a_x^2(\tilde{t}) + w_{\mathit{ay}} a_y^2(\tilde{t})}{(\mu_\mathit{max}g)^2}
 
-where :math:`t_H` is the prediction horizon, :math:`a_x` and :math:`a_y` the longitudinal and lateral accelerations, :math:`\mu_\mathit{max}` the maximum coefficient of friction, :math:`g` the gravitational constant, :math:`w` weights, and :math:`R_x` and :math:`R_y` the longitudinal and lateral 'reserve' for angle corrections:
+where :math:`t_H` is the prediction horizon, :math:`a_x` and :math:`a_y` the longitudinal and lateral accelerations, :math:`\mu_\mathit{max}` the maximum coefficient of friction, :math:`g` the gravitational constant, :math:`w` weights, and :math:`R_x` and :math:`R_y` the longitudinal and lateral margin for angle corrections:
 
 .. math::
 		R_x(t) = \frac{\max(0, x(t) - r_x(t))}{d_x(t)},\\

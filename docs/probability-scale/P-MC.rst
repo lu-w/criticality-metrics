@@ -28,13 +28,12 @@ For example stationary obstacles are modeled by :math:`f \equiv 0` and vehicles 
 If the bounding boxes of two objects intersect at some point between :math:`t` and :math:`t+t_H`, a collision is detected.
 A goal function :math:`g(u_i(t))` is defined for each object in the scene to specify the desirability of paths that the object might follow based on the possible control inputs.
 Various choices for this goal function can be made, influencing the prior distribution :math:`P`.
-Defining the combined goal of all objects in the scene as
+With :math:`k` objects in a scene, the combined goal of all objects is defined as
 
 .. math::
 		P(\mathcal{U}) := P(u_1, \dots, u_k) := \prod\limits_{j=1}^k P(u_j)^{\alpha_j}
 
-where :math:`k` denotes the number of objects, the probability of a collision is then given as
-
+For an actor :math:`A_1` in a scene :math:`S`, the collision probability is then
 
 .. math::
 		\mathit{P}\text{-}\mathit{MC}(A_1, S, t) = P(\mathcal{C}) = \int P(\mathcal{C}~|~\mathcal{U}) P(\mathcal{U}) d\mathcal{U}\ ,
