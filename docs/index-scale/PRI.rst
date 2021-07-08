@@ -4,7 +4,7 @@ Pedestrian Risk Index (PRI)
 Description
 -----------
 
-The PRI estimates the conflict probability and severity for pedestrian crossing scenarios by combining the TTZ with the impact speed [Cafiso2011].
+The PRI estimates the conflict probability and severity for pedestrian crossing scenarios by combining the TTZ with the impact speed [Cafiso2011]_.
 It is defined for a scenario with a vehicle :math:`A_1` and a VRU :math:`P` both approaching a conflict area :math:`\mathit{CA}`.
 The scenario shall include a unique and coherent conflict period :math:`[t_{c_\mathit{start}}, t_{c_\mathit{stop}}]` where :math:`\forall\,t \in [t_{c_\mathit{start}}, t_{c_\mathit{stop}}]:\,\mathit{TTZ}(P, \mathit{CA}, t) < \mathit{TTZ}(A_1, \mathit{CA}, t) < t_s(A_1, t)`.
 Here, :math:`t_s(A_1, t)` is the time :math:`A_1` needs to come to a full stop at time :math:`t`, including its reaction time, leading to

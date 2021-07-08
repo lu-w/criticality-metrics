@@ -4,7 +4,7 @@ Aggregated Crash Index (ACI)
 Description
 -----------
 
-The ACI measures the collision risk for car following scenarios by extending the concept of CPI from :math:`{a}_{\mathit{req}}` to multiple factors.
+The ACI measures the collision risk for car following scenarios by extending the concept of CPI from :math:`{a}_{\mathit{req}}` to multiple conditions.
 First, a probabilistic causal model of the scenario type under consideration is needed to derive a collision tree with all possible outcomes and their probabilities [Kuang2015]_.
 
 The concrete outcomes are represented by the tree's leaf nodes :math:`L_j`.

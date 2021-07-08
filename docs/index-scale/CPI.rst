@@ -12,6 +12,9 @@ While originally defined in discrete time, the CPI for a scenario can be defined
 .. math::
 		\mathit{CPI}(A_1, A_2) = \frac{1}{t_e-t_0}\int_{t_0}^{t_e}P({a}_{\mathit{long,req}}(A_1, A_2, t) < a_{1,\mathit{long,min}}(t)) \mathrm{dt}\,.
 
+Note that this concept of aggregation over time can be generalized to be applicable to other metrics, assuming that a valid probability distribution of the target value can be given. 
+This potentially enables a more precise identification of criticality within a scenario. 
+
 Properties
 ----------
 
@@ -23,7 +26,7 @@ No
 Target values
 ~~~~~~~~~~~~~
 
-Average CPI in simulation was found to be :math:`0.5\% \pm 0.3\%`, thus :math:`0.72\%` could be used [Cunto2008]_
+Average CPI was found to be 0.00491% in simulation, suggesting higher values as target values, e.g. 0.0072\% (upper limit of 95%-confidence interval) [Cunto2008]_
 
 Subject type
 ~~~~~~~~~~~~

@@ -15,10 +15,7 @@ Using the jerk, it possible to discern different classes of driving styles, e.g.
 Ambros et al. derived an indicator using the longitudinal jerk for the safety of a horizontal curve [Ambros2019]_.
 Another important application area are trains and buses, where for standing passengers, the jerk enables an analysis of their reaction capabilities on the maneuver, e.g. during a change of tracks of a train [Powell2015]_.
 
-Depending on the application, the lateral or the longitudinal component of the jerk is used.
-Both are used in the design of assistance and safety functions of vehicles.
-For example, the longitudinal jerk can be utilized in the design of an ACC or an AEB function, whereas the lateral component is used for functions dealing with steering maneuvers, e.g. an LKAS.
-Upper bounds on the longitudinal and lateral jerk have been specified in norms, e.g. for LKAS [ISO11270]_ and ACC [ISO15622]_.
+The usage of \acs{longj} and \acs{latj} varies, e.g. \acs{longj} can be utilized in the design of an \ac{ACC} \cite{ISO15622} function, whereas \acs{latj} is used for functions dealing with steering maneuvers, e.g. a \ac{LKAS} \cite{ISO11270}. 
 
 Properties
 ----------
