@@ -7,6 +7,7 @@ Description
 
 :math:`\Delta v` is the change in speed over collision duration and widely used in collision databases, where it is typically calculated from post-collision measurements [Gabauer2006]_.
 Introduced in the 1970s [Carlson1979]_, it uses the difference in speed to estimate the probability of a severe injury or fatality:
+
 .. math::
 		\Delta v(A_1) = \|v_1(t_\mathit{aftercol})\|_2-\|v_1(t_\mathit{beforecol})\|_2.
 
