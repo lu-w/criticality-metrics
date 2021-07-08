@@ -12,13 +12,10 @@ A simple example of how to evaluate this metric for an actor :math:`A_1` and a g
 .. math::
 		\mathit{PF}(A_1, S') = U(A_1, S') = U_1(A_1, S') + \dots + U_k(A_1, S') \,.
 
-However, methods involving the above mentioned gradient descent to assess the criticality will likely improve the precision and also provide a direction in which the vehicle should move to decrease the criticality.
+However, methods involving the mentioned gradient descent to assess the criticality can improve precision and also provide a suggestion for criticality-reducing vehicle movement. 
 
-Due to the way this metric is defined, almost all properties depend on the specified potential functions.
-
-..
-		While ethical questions play a role when defining any safety surrogate, it becomes more evident for potential functions, as an active decision making in the definition of the potentials is required.
-
+Due to the way this metric is defined, almost all properties depend on the specified potential functions. 
+Furthermore, while ethical questions play a role when defining any safety surrogate, it becomes more evident for potential functions, as an active decision making in the definition of the potentials is required.
 Properties
 ----------
 
