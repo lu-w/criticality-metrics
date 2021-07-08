@@ -25,7 +25,7 @@ No, as TTA can only be computed once evasive maneuver has been identified
 Target values
 ~~~~~~~~~~~~~
 
-Case study on manually labeled critical scenarios identified a mean CS of :math:`3.19 \pm 3.7`, but severity is dependent on speed and type of actors [Bagdadi2013]_
+Case study on manually labeled critical scenarios identified a mean CS of :math:`3.19 \pm 3.7` m/s, but severity is dependent on speed and type of actors [Bagdadi2013]_
 
 Subject type
 ~~~~~~~~~~~~
