@@ -4,20 +4,27 @@ Time To Collision (TTC)
 Description
 -----------
 
-For two actors :math:`A_1`, :math:`A_2` at time :math:`t`, the TTC metric returns the minimal time until :math:`A_1` and :math:`A_2` collide using an underlying one-track prediction model for both actors, or infinity if the predicted trajectories do not intersect.
+For two actors :math:`A_1`, :math:`A_2` at time :math:`t`, the TTC metric returns the minimal time until :math:`A_1` and :math:`A_2` collide using an underlying one-track prediction model for both actors, 
+or infinity if the predicted trajectories do not intersect.
 It is defined by
 
 .. math::
 		\mathit{TTC}(A_1,A_2,t)  = \min \; (\{ \tilde{t} \ge 0 \,\mid\,  d(p_1(t+ \tilde{t}), p_2(t+ \tilde{t})) = 0 \} \cup \{ \infty \}).
 
-While the TTC delivers quality results at cheap computational cost for car following scenarios, its validity is greatly reduced for intersection scenarios.
-A modified version of the TTC, called MTTC, is extended under the name of CrI, where the MTT} is multiplied with a velocity-based accident severity factor to reflect a risk surrogate.
+A variety of the \acs{TTC}, called modified TTC (MTTC), is extended under by the \ac{CrI}, where it is multiplied with a velocity-based severity estimate [ozbay2008derivation]. 
 
-The TTC metric can be extended to multi-actor scenes by pairwise aggregation over actors and to scenarios by discrete aggregation over time.
-For example, the scenario-level TTA metric is defined as :math:`\mathit{TTA}(A_1, A_2) = \mathit{TTC}(A_1, A_2, t_\mathit{evasive})` with :math:`t_\mathit{evasive}` being the first time where one of the actors conducts an evasive maneuver.
+For car following scenarios and from the point of view of a distinguished actor, the TTC delivers a quality estimate on the temporal proximity to a collision that is induced by a maneuver of an actors, e.g. by a braking maneuvers of a lead vehicle. 
+Its validity is however greatly reduced for most DMMs within intersection scenarios, cf. \autoref{fig:ttc-motivation}, as well as, if not meaningfully aggregated over actors, in multi actor scenes. 
+Furthermore, the resulting time still needs to be interpreted w.r.t. the abilities and environment of :math:`A_1`, either by using appropriate target values or composed metrics such as TTM. 
 
-Note that for an implementation of the  TTC, one might want to limit the output to a time horizon :math:`t_H`, i.e. :math:`\tilde{t} \in [0,t_H]`.
-The same can be said for all time-scale metrics in this section.
+
+One possible aggregate of the TTC to the scenario level is the TTA metric which is defined as 
+.. math::
+	\mathit{TTA}(A_1, A_2) = \mathit{TTC}(A_1, A_2, t_\mathit{evasive})
+
+with :math:`t_\mathit{evasive}` being the first time where an evasive maneuver is performed [johnsson2018search]_. 
+Such aggregations over time can increase the TTC's validity when used for a retrospective assessment. 
+Further information is given when discussing the other two time aggregates of TTC in this work, TET and TIT.
 
 Properties
 ----------
