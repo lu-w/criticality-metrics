@@ -18,11 +18,12 @@ Its validity is however greatly reduced for most DMMs within intersection scenar
 Furthermore, the resulting time still needs to be interpreted w.r.t. the abilities and environment of :math:`A_1`, either by using appropriate target values or composed metrics such as TTM. 
 
 
-One possible aggregate of the TTC to the scenario level is the TTA metric which is defined as 
+One possible aggregate of the TTC to the scenario level is the TTA metric which is defined as
+ 
 .. math::
-	\mathit{TTA}(A_1, A_2) = \mathit{TTC}(A_1, A_2, t_\mathit{evasive})
+	\mathit{TTA}(A_1, A_2) = \mathit{TTC}(A_1, A_2, t_{\mathit{evasive}})
 
-with :math:`t_\mathit{evasive}` being the first time where an evasive maneuver is performed [johnsson2018search]_. 
+with :math:`t_{\mathit{evasive}}` being the first time where an evasive maneuver is performed [johnsson2018search]_. 
 Such aggregations over time can increase the TTC's validity when used for a retrospective assessment. 
 Further information is given when discussing the other two time aggregates of TTC in this work, TET and TIT.
 
