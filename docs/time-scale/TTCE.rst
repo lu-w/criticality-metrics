@@ -16,7 +16,6 @@ The corresponding minimal distance is called the DCE. The formulae are
 
 In particular, as :math:`\mathit{DCE} \rightarrow 0`, :math:`\mathit{TTCE} \rightarrow \mathit{TTC}` which implies :math:`\mathit{DCE} = 0` if and only if :math:`\mathit{TTCE} = \mathit{TTC}`.
 Building on the TTCE and DCE, Eggert uses an exponential transform together with a survival function in order to estimate the future event probability of a collision for the distance-dependent risk [Eggert2014]_.
-For simplicity, we omit further technical details here.
 
 Properties
 ----------
