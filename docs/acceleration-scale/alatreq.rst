@@ -4,7 +4,28 @@ Required Lateral Acceleration (:math:`{a}_{\mathit{lat,req}}`)
 Description
 -----------
 
-Please refer to the :doc:`required longitudinal acceleration<alongreq>`.
+Similar to the :doc:`required longitudinal acceleration<alongreq>`, the :math:`{a}_{\mathit{lat,req}}` [jansson_collision_2005]_ is defined as the minimal absolute lateral acceleration in either direction that is 
+required for a steering maneuver to evade collision.
+For two actors :math:`A_1, A_2` at time :math:`t`, :math:`{a}_{\mathit{lat,req}}` measures the minimum absolute lateral acceleration required, on average, by actor :math:`A_1` to avoid a collision in the future:
+
+.. math::
+	{a}_{\mathit{lat,req}}(A_1, A_2, t) = \min \{ |a_{1,\mathit{lat}}| ~|~\forall \, \tilde{t} \ge 0:   d(p_1(t+\tilde{t}),p_2(t+\tilde{t})) > 0 \}\,.
+
+
+For actors :math:`A_1` and :math:`A_2` with constant acceleration where :math:`A_1` is following :math:`A_2`, the formula concretizes to
+
+.. math::
+	{a}_{\mathit{lat,req}}(A_1, A_2, t) = \min \{ |a_{1,\mathit{lat,left}}(A_1,A_2,t)|, |a_{1,\mathit{lat,right}}(A_1,A_2,t)| \}
+
+where
+
+.. math::
+	{a}_{1,\mathit{lat,k}}(A_1,A_2,t) =  {a}_{2,\mathit{lat,k}} + \frac{2(v_{2,\mathit{lat}}(t) - v_{1,\mathit{lat}}(t))}{\mathit{TTC}(A_1,A_2,t)}
+	+ \frac{2}{\mathit{TTC}(A_1,A_2,t)^2} \cdot \left[ \pm \left( \frac{w_1+w_2}{2}\right) + p_{2,\mathit{lat}}(t) - p_{1,\mathit{lat}}(t)\right]
+
+
+with :math:`w_i` denoting the width of :math:`A_i` and :math:`k \in \{\mathit{left}, \mathit{right}\}` depends on the sign of :math:`\frac{w_1+w_2}{2}`.
+
 
 Properties
 ----------
