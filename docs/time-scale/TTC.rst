@@ -11,7 +11,8 @@ It is defined by
 .. math::
 		\mathit{TTC}(A_1,A_2,t)  = \min \; (\{ \tilde{t} \ge 0 \,\mid\,  d(p_1(t+ \tilde{t}), p_2(t+ \tilde{t})) = 0 \} \cup \{ \infty \}).
 
-A variety of the \acs{TTC}, called modified TTC (MTTC), is extended under by the \ac{CrI}, where it is multiplied with a velocity-based severity estimate [ozbay2008derivation]. 
+A variety of the TTC, called Modified-TTC, is extended under the name of CrI, where it is multiplied with a velocity-based severity estimate [ozbay2008derivation]_. 
+
 
 For car following scenarios and from the point of view of a distinguished actor, the TTC delivers a quality estimate on the temporal proximity to a collision that is induced by a maneuver of an actors, e.g. by a braking maneuvers of a lead vehicle. 
 Its validity is however greatly reduced for most DMMs within intersection scenarios, cf. \autoref{fig:ttc-motivation}, as well as, if not meaningfully aggregated over actors, in multi actor scenes. 
