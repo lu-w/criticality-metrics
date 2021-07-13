@@ -12,7 +12,7 @@ By definition, a BTN :math:`\ge 1` indicates that a braking maneuver performed b
 An extension of BTN to multiple actors is proposed by Eidehall [Eidehall2011]_.
 
 A special case of the BTN is known as the Deceleration-based Surrogate Safety Measure (DSSM).
-Here, for car-following scenarios, a worst case assumption of maximum braking of the lead vehicle is combined with an acceleration-dependent estimation of the following driver's time to perceive the threat and transition to emergency braking, thus incorporating human factors into the model [Tak2015].
+Here, for car-following scenarios, a worst case assumption of maximum braking of the lead vehicle is combined with an acceleration-dependent estimation of the following driver's time to perceive the threat and transition to emergency braking, thus incorporating human factors into the model [Tak2015]_.
 
 Properties
 ----------
