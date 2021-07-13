@@ -15,7 +15,7 @@ For two actors :math:`A_1, A_2` at time :math:`t`, :math:`{a}_{\mathit{lat,req}}
 For actors :math:`A_1` and :math:`A_2` with constant acceleration where :math:`A_1` is following :math:`A_2`, the formula concretizes to
 
 .. math::
-	{a}_{\mathit{lat,req}}(A_1, A_2, t) = \min \{ |a_{1,\mathit{lat,left}}(A_1,A_2,t)|, |a_{1,\mathit{lat,right}}(A_1,A_2,t)| \}\
+	{a}_{\mathit{lat,req}}(A_1, A_2, t) = \min \{ |a_{1,\mathit{lat,left}}(A_1,A_2,t)|, |a_{1,\mathit{lat,right}}(A_1,A_2,t)| \}
 
 where
 
