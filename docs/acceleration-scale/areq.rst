@@ -18,8 +18,10 @@ Also, let us mention the :math:`{a}_{\mathit{req,cond}}` [neurohr2021criticality
 		0, \text{ otherwise.}
 		\end{cases}
 
-The :math:`{a}_{\mathit{req,cond}}` demonstrates by example how new criticality metrics can be created by combination of existing metrics and target values. Of course, this construction 
-can be generalized as it is not specific to the :math:`{a}_{\mathit{req}}` and SPrET. 
+The :math:`{a}_{\mathit{req,cond}}` demonstrates by example how new criticality metrics can be created by combination of existing metrics and target values. In particular, the conditionality of the :math:`{a}_{\mathit{req,cond}}`
+encodes that the dynamical aspects of criticality only become relevant when a certain temporal criticality is present.
+This construction, of course, can be generalized as it is not specific to the :math:`{a}_{\mathit{req}}` and SPrET. 
+Generally, addressing the different aspects of criticality through combination of metrics could lead to vastly improved validity.
 
 Properties
 ----------
