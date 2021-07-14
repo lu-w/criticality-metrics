@@ -11,8 +11,13 @@ The PrET [Neurohr2021]_ is the anticipated PET relative to an intersection point
 		\mathit{PrET}(A_1,A_2,t) = \min (\{|\tilde{t}_1 - \tilde{t}_2| \,\mid\, p_1(t+\tilde{t}_1) = p_2(t+\tilde{t}_2), \, \tilde{t}_1, \tilde{t}_2 \ge 0 \} \cup \{ \infty \})\,.
 
 The Time Advantage (TA) metric [Hansson1975]_ can be interpreted as a special case of PrET for a constant velocity model, i.e. :math:`p_i(s+t) = p_i(t) + s v_i(t)`.
-A scaled variant of the PrET, labeled Scaled Predictive Encroachment Time (SPrET) modifies the value of PrET by multiplication with the factor :math:`(\tilde{t}_1+\tilde{t}_2)`, with :math:`\tilde{t}_1` and :math:`\tilde{t}_2` as defined in the PrET formula, in order to decrease the weight of situations long before the predicted intersection [Neurohr2021]_.
-This method therefore incorporates prediction uncertainty.
+A scaled variant of the PrET, labeled Scaled Predictive Encroachment Time (SPrET), modifies the value of PrET by multiplication with the factor :math:`(\tilde{t}_1+\tilde{t}_2)`, i.e.
+
+.. math::
+		\mathit{SPrET}(A_1,A_2,t) = \min (\{|\tilde{t}_1^2 - \tilde{t}_2^2| \,\mid\, p_1(t+\tilde{t}_1) = p_2(t+\tilde{t}_2), \, \tilde{t}_1, \tilde{t}_2 \ge 0 \} \cup \{ \infty \})\,,
+
+in order to decrease the weight of situations long before the predicted intersection [Neurohr2021]_.
+Therefore, the SPrET incorporates prediction uncertainty. 
 
 Properties
 ----------

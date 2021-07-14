@@ -10,7 +10,16 @@ Based on :math:`{a}_{\mathit{long,req}}` and :math:`{a}_{\mathit{lat,req}}`, the
 		{a}_{\mathit{req}}(A_1, A_2, t) = \sqrt{{a}_{\mathit{long,req}}(A_1, A_2, t)^2 + {a}_{\mathit{lat,req}}(A_1, A_2, t)^2}\,.
 
 More complex aggregates might also take into account the maximally available acceleration in each direction by incorporating the coefficient of friction :math:`\mu`.
-Moreover, let us mention the conditional required acceleration :math:`{a}_{\mathit{req,cond}}` combining :math:`{a}_{\mathit{req}}` and SPrET for the analysis of urban intersection scenarios [Neurohr2021]_.
+Also, let us mention the :math:`{a}_{\mathit{req,cond}}` [neurohr2021criticality]_ which combines :math:`{a}_{\mathit{req}}` and SPrET for the analysis of urban intersection scenarios:
+
+.. math::
+	{a}_{\mathit{req,cond}}(A_1,A_2,t)  =  \begin{cases}
+		{a}_{\mathit{req}}(A_1,A_2,t), \text{ if } \mathit{SPrET}(A_1,A_2,t) < 3s^2,\\
+		0, \text{ otherwise.}
+		\end{cases}
+
+The :math:`{a}_{\mathit{req,cond}}` demonstrates by example how new criticality metrics can be created by combination of existing metrics and target values. Of course, this construction 
+can be generalized as it is not specific to the :math:`{a}_{\mathit{req}}` and SPrET. 
 
 Properties
 ----------
