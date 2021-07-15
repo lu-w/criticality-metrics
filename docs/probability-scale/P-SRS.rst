@@ -36,6 +36,7 @@ This leads to a lateral position probability of
 		p^{dev}_f([t_k, t_{k+1}]) = P(\delta \in D_f, t \in [t_k, t_{k+1}]) .
 
 By splitting the state space partitions :math:`X_i` into position and velocity, i.e. :math:`X_i = S_e \times V_m`, one can define
+
 .. math::
 		p^{path}_e([t_k, t_{k+1}]) = \sum\limits_m P(s \in S_e, v \in V_m, t \in [t_k, t_{k+1}]).
 
