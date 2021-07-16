@@ -11,4 +11,4 @@ We are open to contributions, discussions, ideas, and new metric entries from th
 
 ## References
 
-[1] L. Westhofen, C. Neurohr, T. Koopmann, M. Butz, B. U. Schütt, F. Utesch, B. Kramer, C. Gutenkunst, and E. Böde, “Criticality Metrics for Automated Vehicles: A Suitability Analysis”
+[1] L. Westhofen, C. Neurohr, T. Koopmann, M. Butz, B. U. Schütt, F. Utesch, B. Kramer, C. Gutenkunst, and E. Böde, “Criticality Metrics for Automated Vehicles: A Review and Suitability Analysis of the State of the Art”
