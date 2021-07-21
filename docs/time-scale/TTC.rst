@@ -15,7 +15,7 @@ A variety of the TTC, called Modified-TTC, is extended under the name of CrI, wh
 
 
 For car following scenarios and from the point of view of a distinguished actor, the TTC delivers a quality estimate on the temporal proximity to a collision that is induced by a maneuver of an actors, e.g. by a braking maneuvers of a lead vehicle. 
-Its validity is however greatly reduced for most DMMs within intersection scenarios, cf. \autoref{fig:ttc-motivation}, as well as, if not meaningfully aggregated over actors, in multi actor scenes. 
+Its validity is however greatly reduced for most DMMs within intersection scenarios as well as, if not meaningfully aggregated over actors, in multi actor scenes. 
 Furthermore, the resulting time still needs to be interpreted w.r.t. the abilities and environment of :math:`A_1`, either by using appropriate target values or composed metrics such as TTM. 
 
 
@@ -35,7 +35,7 @@ Run-time capability
 ~~~~~~~~~~~~~~~~~~~
 
 .. req:: Rune-time-capability
-	:id: TTC-RTC
+	:id: TTC_RTC
 	:style: metricprop
 
 	Yes
@@ -44,7 +44,7 @@ Target values
 ~~~~~~~~~~~~~
 
 .. req:: Target values
-	:id: TTC-TV
+	:id: TTC_TV
 
 	1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)
 
@@ -52,7 +52,7 @@ Subject type
 ~~~~~~~~~~~~
 
 .. req:: Subject type
-	:id: TTC-SUT
+	:id: TTC_SUT
 	
 	Optimal for road vehicles (automated and human), sub-optimal for VRUs
 
@@ -60,7 +60,7 @@ Scenario type
 ~~~~~~~~~~~~~
 
 .. req:: Scenario type
-	:id: TTC-SCT
+	:id: TTC_SCT
 	
 	Overlapping predicted trajectories for a significant time span in the scenario
 
@@ -68,7 +68,7 @@ Inputs
 ~~~~~~
 
 .. req:: Inputs
-	:id: TTC-I
+	:id: TTC_I
 	
 	Static/dynamic objects and their state (pose, shape, etc.) at time t
 
@@ -76,7 +76,7 @@ Output scale
 ~~~~~~~~~~~~
 
 .. req:: Output scale
-	:id: TTC-OS
+	:id: TTC_OS
 	
 	:math:`[0,\infty]`, time (s), ratio scale
 
@@ -84,7 +84,7 @@ Reliability
 ~~~~~~~~~~~
 
 .. req:: Reliability
-	:id: TTC-R
+	:id: TTC_R
 	
 	Highly depending on the reliability of the predicted collision, for most DMMs reliability is reduced [Allen1978]_
 
@@ -92,7 +92,7 @@ Validity
 ~~~~~~~~
 
 .. req:: Validity
-	:id: TTC-V
+	:id: TTC_V
 	
 	Medium, depending on the length of time interval with collision prediction in the scenario, as well as the validity of the DMM [StAubin2015]_
 
@@ -100,7 +100,7 @@ Sensitivity
 ~~~~~~~~~~~
 
 .. req:: Sensitivity
-	:id: TTC-SE
+	:id: TTC_SE
 	
 	Medium, as, due to the linear-time DMM, critical scenes may not have a predicted collision in the DMM [Allen1978]_
 
@@ -108,7 +108,7 @@ Specificity
 ~~~~~~~~~~~
 
 .. req:: Specificity
-	:id: TTC-SP
+	:id: TTC_SP
 	
 	High, as, due to the linear-time  DMM, only few uncritical situations have a predicted collision in the DMM [Zheng2019]_
 
@@ -119,7 +119,7 @@ Time window
 ^^^^^^^^^^^
 
 .. req:: Time window
-	:id: TTC-PM-W
+	:id: TTC_PM_W
 	
 	Unbound, but usefulness depends on DMM
 
@@ -127,7 +127,7 @@ Time mode
 ^^^^^^^^^
 
 .. req:: Time mode
-	:id: TTC-PM-M
+	:id: TTC_PM_M
 	
 	Linear time
 
