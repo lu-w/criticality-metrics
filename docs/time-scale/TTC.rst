@@ -32,7 +32,7 @@ Properties
 ----------
 
 .. spec:: TTC
-	:id: Metric_TTC
+	:id: metric_ttc
 
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
