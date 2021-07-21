@@ -15,13 +15,13 @@ The requirements include concepts such as holding a safe following distance and 
 
 Assuming the vehicle behaves according to Kamm's circle, \acs{TCI} for a scene $S$ with an ego vehicle $A_1$ reads as
 .. math::
-		\mathit{TCI}(A_1,S,t,t_H) = \min_{a_x, a_y} \sum_{\tilde{t}=t}^{t+t_H} w_x R_x(\tilde{t}) + w_y R_y^2(\tilde{t}) + \frac{w_{\mathit{ax}} a_x^2(\tilde{t}) + w_{\mathit{ay}} a_y^2(\tilde{t})}{(\mu_\mathit{max}g)^2}
+	\mathit{TCI}(A_1,S,t,t_H) = \min_{a_x, a_y} \sum_{\tilde{t}=t}^{t+t_H} w_x R_x(\tilde{t}) + w_y R_y^2(\tilde{t}) + \frac{w_{\mathit{ax}} a_x^2(\tilde{t}) + w_{\mathit{ay}} a_y^2(\tilde{t})}{(\mu_\mathit{max}g)^2}
 
 where :math:`t_H` is the prediction horizon, :math:`a_x` and :math:`a_y` the longitudinal and lateral accelerations, :math:`\mu_\mathit{max}` the maximum coefficient of friction, :math:`g` the gravitational constant, :math:`w` weights, and :math:`R_x` and :math:`R_y` the longitudinal and lateral margin for angle corrections:
 
 .. math::
-		R_x(t) = \frac{\max(0, x(t) - r_x(t))}{d_x(t)},\\
-		R_y^2(t) = \frac{(y(t) - r_y(t))^2v(t-t_s)}{d_y^2(t)v_\mathit{max}}.
+	R_x(t) = \frac{\max(0, x(t) - r_x(t))}{d_x(t)},\\
+	R_y^2(t) = \frac{(y(t) - r_y(t))^2v(t-t_s)}{d_y^2(t)v_\mathit{max}}.
 
 Here, :math:`x(t)`, :math:`y(t)` is the position, :math:`t_s` the discrete time step size, :math:`v_\mathit{max}` the maximum velocity, :math:`r_x(t)` the reference for a following distance (set to :math:`2\text{s} \cdot v(t)`), :math:`r_y` the position with the maximum lateral distance to all obstacles in :math:`S`, :math:`d_x(t)`, :math:`d_y(t)` the maximum longitudinal and lateral deviations from :math:`r_x`, :math:`r_y`.
 
