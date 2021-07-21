@@ -34,7 +34,7 @@ Properties
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
 
-.. req:: TTC Run-time-capability
+.. spec:: TTC Run-time-capability
 	:tags: ttc;run-time-capability
 	:id: TTC_RTC
 	:style: metricprop
@@ -44,7 +44,7 @@ Run-time capability
 Target values
 ~~~~~~~~~~~~~
 
-.. req:: TTC Target values
+.. spec:: TTC Target values
 	:tags: ttc;target-values
 	:id: TTC_TV
 
@@ -53,7 +53,7 @@ Target values
 Subject type
 ~~~~~~~~~~~~
 
-.. req:: TTC Subject type
+.. spec:: TTC Subject type
 	:tags: ttc;subject-type
 	:id: TTC_SUT
 	
@@ -62,7 +62,7 @@ Subject type
 Scenario type
 ~~~~~~~~~~~~~
 
-.. req:: TTC Scenario type
+.. spec:: TTC Scenario type
 	:tags: ttc;scenario-type
 	:id: TTC_SCT
 	
@@ -71,7 +71,7 @@ Scenario type
 Inputs
 ~~~~~~
 
-.. req:: TTC Inputs
+.. spec:: TTC Inputs
 	:tags: ttc;inputs
 	:id: TTC_I
 	
@@ -80,7 +80,7 @@ Inputs
 Output scale
 ~~~~~~~~~~~~
 
-.. req:: TTC Output scale
+.. spec:: TTC Output scale
 	:tags: ttc;output-scale
 	:id: TTC_OS
 	
@@ -89,7 +89,7 @@ Output scale
 Reliability
 ~~~~~~~~~~~
 
-.. req:: TTC Reliability
+.. spec:: TTC Reliability
 	:tags: ttc;reliability
 	:id: TTC_R
 	
@@ -98,7 +98,7 @@ Reliability
 Validity
 ~~~~~~~~
 
-.. req:: TTC Validity
+.. spec:: TTC Validity
 	:tags: ttc;validity
 	:id: TTC_V
 	
@@ -107,7 +107,7 @@ Validity
 Sensitivity
 ~~~~~~~~~~~
 
-.. req:: TTC Sensitivity
+.. spec:: TTC Sensitivity
 	:tags: ttc;sensitivity
 	:id: TTC_SE
 	
@@ -116,7 +116,7 @@ Sensitivity
 Specificity
 ~~~~~~~~~~~
 
-.. req:: TTC Specificity
+.. spec:: TTC Specificity
 	:tags: ttc;specificity
 	:id: TTC_SP
 	
@@ -128,7 +128,7 @@ Prediction model
 Time window
 ^^^^^^^^^^^
 
-.. req:: TTC Time window
+.. spec:: TTC Time window
 	:tags: ttc;time-window
 	:id: TTC_PM_W
 	
@@ -137,7 +137,7 @@ Time window
 Time mode
 ^^^^^^^^^
 
-.. req:: TTC Time mode
+.. spec:: TTC Time mode
 	:tags: ttc;time-mode
 	:id: TTC_PM_M
 	
