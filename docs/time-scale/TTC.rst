@@ -31,96 +31,67 @@ Further information is given when discussing the other two time aggregates of TT
 Properties
 ----------
 
+.. spec:: TTC
+	:id: TTC
+
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
 
-.. spec:: TTC Run-time-capability
-	:tags: ttc;run-time-capability
-	:id: TTC_RTC
-	:style: metricprop
-
-	Yes
+:need_part:`(run-time-capability)Yes`
 
 Target values
 ~~~~~~~~~~~~~
 
-.. spec:: TTC Target values
-	:tags: ttc;target-values
-	:id: TTC_TV
 
-	1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)
+:need_part:`(target-values)1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)`
 
 Subject type
 ~~~~~~~~~~~~
 
-.. spec:: TTC Subject type
-	:tags: ttc;subject-type
-	:id: TTC_SUT
 	
-	Optimal for road vehicles (automated and human), sub-optimal for VRUs
+:need_part:`(subject-type)Optimal for road vehicles (automated and human), sub-optimal for VRUs`
 
 Scenario type
 ~~~~~~~~~~~~~
 
-.. spec:: TTC Scenario type
-	:tags: ttc;scenario-type
-	:id: TTC_SCT
 	
-	Overlapping predicted trajectories for a significant time span in the scenario
+:need_part:`(scenario-type)Overlapping predicted trajectories for a significant time span in the scenario`
 
 Inputs
 ~~~~~~
 
-.. spec:: TTC Inputs
-	:tags: ttc;inputs
-	:id: TTC_I
 	
-	Static/dynamic objects and their state (pose, shape, etc.) at time t
+:need_part:`(inputs)Static/dynamic objects and their state (pose, shape, etc.) at time t`
 
 Output scale
 ~~~~~~~~~~~~
 
-.. spec:: TTC Output scale
-	:tags: ttc;output-scale
-	:id: TTC_OS
 	
-	:math:`[0,\infty]`, time (s), ratio scale
+:need_part:`(output-scale):math:`[0,\infty]`, time (s), ratio scale`
 
 Reliability
 ~~~~~~~~~~~
 
-.. spec:: TTC Reliability
-	:tags: ttc;reliability
-	:id: TTC_R
 	
-	Highly depending on the reliability of the predicted collision, for most DMMs reliability is reduced [Allen1978]_
+:need_part:`(reliability)Highly depending on the reliability of the predicted collision, for most DMMs reliability is reduced [Allen1978]_`
 
 Validity
 ~~~~~~~~
 
-.. spec:: TTC Validity
-	:tags: ttc;validity
-	:id: TTC_V
 	
-	Medium, depending on the length of time interval with collision prediction in the scenario, as well as the validity of the DMM [StAubin2015]_
+:need_part:`(validity)Medium, depending on the length of time interval with collision prediction in the scenario, as well as the validity of the DMM [StAubin2015]_`
 
 Sensitivity
 ~~~~~~~~~~~
 
-.. spec:: TTC Sensitivity
-	:tags: ttc;sensitivity
-	:id: TTC_SE
 	
-	Medium, as, due to the linear-time DMM, critical scenes may not have a predicted collision in the DMM [Allen1978]_
+:need_part:`(sensitivity)Medium, as, due to the linear-time DMM, critical scenes may not have a predicted collision in the DMM [Allen1978]_`
 
 Specificity
 ~~~~~~~~~~~
 
-.. spec:: TTC Specificity
-	:tags: ttc;specificity
-	:id: TTC_SP
 	
-	High, as, due to the linear-time  DMM, only few uncritical situations have a predicted collision in the DMM [Zheng2019]_
+:need_part:`(specificity)High, as, due to the linear-time  DMM, only few uncritical situations have a predicted collision in the DMM [Zheng2019]_`
 
 Prediction model
 ~~~~~~~~~~~~~~~~
@@ -128,18 +99,12 @@ Prediction model
 Time window
 ^^^^^^^^^^^
 
-.. spec:: TTC Time window
-	:tags: ttc;time-window
-	:id: TTC_PM_W
 	
-	Unbound, but usefulness depends on DMM
+:need_part:`(time-window)Unbound, but usefulness depends on DMM`
 
 Time mode
 ^^^^^^^^^
 
-.. spec:: TTC Time mode
-	:tags: ttc;time-mode
-	:id: TTC_PM_M
 	
-	Linear time
+:need_part:`(time-mode)Linear time`
 
