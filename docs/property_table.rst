@@ -6,3 +6,6 @@ Properties of Criticality Metrics
 	:style: datatables
 	:show_parts:
 	:show_filters:
+	
+
+:math:`\phantom{-}`

@@ -33,13 +33,9 @@ Properties
 
 .. spec:: TTC
 	:id: METRIC_TTC
-	
-	:need_part:`(Run-time_Capability)Yes`
-	
-	Target values
-	~~~~~~~~~~~~~
-	
-	:need_part:`(Target_Values)1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)`
+
+	* :need_part:`(Run-time_Capability)Yes`
+	* :need_part:`(Target_Values)1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)`
 	
 	Subject type
 	~~~~~~~~~~~~
