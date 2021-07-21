@@ -37,7 +37,7 @@ Properties
 	Run-time capability
 	~~~~~~~~~~~~~~~~~~~
 	
-	:need_part:`(1)Run-time capability: Yes`
+	:need_part:`(Run-time capability)Run-time capability: Yes`
 	
 	Target values
 	~~~~~~~~~~~~~
