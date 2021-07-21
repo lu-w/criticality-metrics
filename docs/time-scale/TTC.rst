@@ -33,56 +33,53 @@ Properties
 
 .. spec:: TTC
 	:id: METRIC_TTC
-
-	Run-time capability
-	~~~~~~~~~~~~~~~~~~~
 	
-	:need_part:`(Run-time_Capability)Run-time capability: Yes`
+	:need_part:`(Run-time_Capability)Yes`
 	
 	Target values
 	~~~~~~~~~~~~~
 	
-	:need_part:`(target-values)1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)`
+	:need_part:`(Target_Values)1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)`
 	
 	Subject type
 	~~~~~~~~~~~~
 	
-	:need_part:`(subject-type)Optimal for road vehicles (automated and human), sub-optimal for VRUs`
+	:need_part:`(Subject_Type)Optimal for road vehicles (automated and human), sub-optimal for VRUs`
 	
 	Scenario type
 	~~~~~~~~~~~~~
 	
-	:need_part:`(scenario-type)Overlapping predicted trajectories for a significant time span in the scenario`
+	:need_part:`(Scenario_Type)Overlapping predicted trajectories for a significant time span in the scenario`
 	
 	Inputs
 	~~~~~~
 	
-	:need_part:`(inputs)Static/dynamic objects and their state (pose, shape, etc.) at time t`
+	:need_part:`(Inputs)Static/dynamic objects and their state (pose, shape, etc.) at time t`
 	
 	Output scale
 	~~~~~~~~~~~~
 	
-	:need_part:`(output-scale):math:`[0,\infty]`, time (s), ratio scale`
+	:need_part:`(Output_Scale):math:`[0,\infty]`, time (s), ratio scale`
 	
 	Reliability
 	~~~~~~~~~~~
 	
-	:need_part:`(reliability)Highly depending on the reliability of the predicted collision, for most DMMs reliability is reduced [Allen1978]_`
+	:need_part:`(Reliability)Highly depending on the reliability of the predicted collision, for most DMMs reliability is reduced [Allen1978]_`
 	
 	Validity
 	~~~~~~~~
 	
-	:need_part:`(validity)Medium, depending on the length of time interval with collision prediction in the scenario, as well as the validity of the DMM [StAubin2015]_`
+	:need_part:`(Validity)Medium, depending on the length of time interval with collision prediction in the scenario, as well as the validity of the DMM [StAubin2015]_`
 	
 	Sensitivity
 	~~~~~~~~~~~
 	
-	:need_part:`(sensitivity)Medium, as, due to the linear-time DMM, critical scenes may not have a predicted collision in the DMM [Allen1978]_`
+	:need_part:`(Sensitivity)Medium, as, due to the linear-time DMM, critical scenes may not have a predicted collision in the DMM [Allen1978]_`
 	
 	Specificity
 	~~~~~~~~~~~
 	
-	:need_part:`(specificity)High, as, due to the linear-time  DMM, only few uncritical situations have a predicted collision in the DMM [Zheng2019]_`
+	:need_part:`(Specificity)High, as, due to the linear-time  DMM, only few uncritical situations have a predicted collision in the DMM [Zheng2019]_`
 	
 	Prediction model
 	~~~~~~~~~~~~~~~~
@@ -90,9 +87,9 @@ Properties
 	Time window
 	^^^^^^^^^^^
 	
-	:need_part:`(time-window)Unbound, but usefulness depends on DMM`
+	:need_part:`(Time_Window)Unbound, but usefulness depends on DMM`
 	
 	Time mode
 	^^^^^^^^^
 	
-	:need_part:`(time-mode)Linear time`
+	:need_part:`(Time_Mode)Linear time`
