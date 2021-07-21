@@ -36,6 +36,7 @@ Run-time capability
 
 .. req:: Rune-time-capability
 	:id: TTC-RTC
+	:style: metricprop
 
 	Yes
 
