@@ -34,7 +34,9 @@ Properties
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
 
-Yes
+.. req:: Rune-time-capability
+
+	Yes
 
 Target values
 ~~~~~~~~~~~~~
