@@ -34,7 +34,7 @@ Properties
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
 
-.. req:: Rune-time-capability
+.. req:: TTC Run-time-capability
 	:id: TTC_RTC
 	:style: metricprop
 
@@ -43,7 +43,7 @@ Run-time capability
 Target values
 ~~~~~~~~~~~~~
 
-.. req:: Target values
+.. req:: TTC Target values
 	:id: TTC_TV
 
 	1 s [Hayward1972]_ [Huber2020]_, 1.5 s, [Sacchi2016]_, [ElBasyouny2013]_, 3 s [Autey2012]_ (all data separation), 1.22 s [Junietz2018a]_ (threshold for critical)
@@ -51,7 +51,7 @@ Target values
 Subject type
 ~~~~~~~~~~~~
 
-.. req:: Subject type
+.. req:: TTC Subject type
 	:id: TTC_SUT
 	
 	Optimal for road vehicles (automated and human), sub-optimal for VRUs
@@ -59,7 +59,7 @@ Subject type
 Scenario type
 ~~~~~~~~~~~~~
 
-.. req:: Scenario type
+.. req:: TTC Scenario type
 	:id: TTC_SCT
 	
 	Overlapping predicted trajectories for a significant time span in the scenario
@@ -67,7 +67,7 @@ Scenario type
 Inputs
 ~~~~~~
 
-.. req:: Inputs
+.. req:: TTC Inputs
 	:id: TTC_I
 	
 	Static/dynamic objects and their state (pose, shape, etc.) at time t
@@ -75,7 +75,7 @@ Inputs
 Output scale
 ~~~~~~~~~~~~
 
-.. req:: Output scale
+.. req:: TTC Output scale
 	:id: TTC_OS
 	
 	:math:`[0,\infty]`, time (s), ratio scale
@@ -83,7 +83,7 @@ Output scale
 Reliability
 ~~~~~~~~~~~
 
-.. req:: Reliability
+.. req:: TTC Reliability
 	:id: TTC_R
 	
 	Highly depending on the reliability of the predicted collision, for most DMMs reliability is reduced [Allen1978]_
@@ -91,7 +91,7 @@ Reliability
 Validity
 ~~~~~~~~
 
-.. req:: Validity
+.. req:: TTC Validity
 	:id: TTC_V
 	
 	Medium, depending on the length of time interval with collision prediction in the scenario, as well as the validity of the DMM [StAubin2015]_
@@ -99,7 +99,7 @@ Validity
 Sensitivity
 ~~~~~~~~~~~
 
-.. req:: Sensitivity
+.. req:: TTC Sensitivity
 	:id: TTC_SE
 	
 	Medium, as, due to the linear-time DMM, critical scenes may not have a predicted collision in the DMM [Allen1978]_
@@ -107,7 +107,7 @@ Sensitivity
 Specificity
 ~~~~~~~~~~~
 
-.. req:: Specificity
+.. req:: TTC Specificity
 	:id: TTC_SP
 	
 	High, as, due to the linear-time  DMM, only few uncritical situations have a predicted collision in the DMM [Zheng2019]_
@@ -118,7 +118,7 @@ Prediction model
 Time window
 ^^^^^^^^^^^
 
-.. req:: Time window
+.. req:: TTC Time window
 	:id: TTC_PM_W
 	
 	Unbound, but usefulness depends on DMM
@@ -126,7 +126,7 @@ Time window
 Time mode
 ^^^^^^^^^
 
-.. req:: Time mode
+.. req:: TTC Time mode
 	:id: TTC_PM_M
 	
 	Linear time
