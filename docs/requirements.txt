@@ -1,3 +1,4 @@
 sphinx
 readthedocs-sphinx-search
+sphinxcontrib-needs
 furo
