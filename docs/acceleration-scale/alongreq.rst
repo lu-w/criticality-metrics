@@ -30,7 +30,7 @@ Yes
 Target values
 ~~~~~~~~~~~~~
 
--6 m/s² [Stellet2016]_ (AEB), :math:`\mu \cdot g` [Jeppsson2018]_ (point of no return), -3.4 m/s² [Huber2020]_ (scenario classification), :math:`[-8,-4]` m/s², dependent on speed [Benmimoun2011]_ (incident detection)
+-6 m/s² [Stellet2016]_ (AEB), :math:`\mu \cdot g` [Jeppsson2018]_ (point of no return), -3.4 m/s² [Huber2020]_ (scenario classification), :math:`[-8,-4]` m/s², dependent on speed [Benmimoun2011]_ (incident detection), -5 m/s² [UNECER157]_ (Requirement on emergency maneuver deployment in ALKS)
 
 Subject type
 ~~~~~~~~~~~~
