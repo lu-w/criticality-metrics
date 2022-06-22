@@ -4,7 +4,7 @@ Required Longitudinal Acceleration (:math:`{a}_{\mathit{long,req}}`)
 Description
 -----------
 
-For two actors :math:`A_1`, :math:`A_2` at time :math:`t`, :math:`{a}_{\mathit{long,req}}` measures the average negative longitudinal acceleration required by actor :math:`A_1` to avoid a collision in the future.
+For two actors :math:`A_1`, :math:`A_2` at time :math:`t`, :math:`{a}_{\mathit{long,req}}` measures the maximum longitudinal backward acceleration required, on average, by actor :math:`A_1` to avoid a collision in the future.
 It can be formalized as
 
 .. math::
