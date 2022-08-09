@@ -78,6 +78,6 @@ References
 .. [Wakabayashi2003] H\. Wakabayashi, Y. Takahashi, S. Niimi, and K. Renge, “Traffic Conflict Analysis using Vehicle Tracking System/Digital VCR and Proposal of a New Conflict Indicator,” Infrastructure Planning Review, vol. 20, pp. 949–956, 2003.
 .. [Wolf2018] M\. T. Wolf and J. W. Burdick, “Artificial potential functions for highway driving with collision avoidance,” in 2008 IEEE International Conference on Robotics and Automation, pp. 3731–3736, IEEE, 2008.
 .. [Zheng2019] L\. Zheng and T. Sayed, “Comparison of traffic conflict indicators for crash estimation using peak over threshold approach,” Transportation Research Record, vol. 2673, no. 5, pp. 493–502, 2019.
-.. [Westhofen2021] L\. Westhofen, C. Neurohr, T. Koopmann, M. Butz, B. U. Schütt, F. Utesch, B. Kramer, C. Gutenkunst, and E. Böde, “Criticality Metrics for Automated Vehicles: A Review and Suitability Analysis of the State of the Art,” in Archives of Computational Methods in Engineering, 2022, pp. 1-35.
+.. [Westhofen2021] L\. Westhofen, C. Neurohr, T. Koopmann, M. Butz, B. U. Schütt, F. Utesch, B. Kramer, C. Gutenkunst, and E. Böde, “Criticality Metrics for Automated Vehicles: A Review and Suitability Analysis of the State of the Art,” in Archives of Computational Methods in Engineering, 2022, https://doi.org/10.1007/s11831-022-09788-7
 
 :math:`\phantom{-}`
