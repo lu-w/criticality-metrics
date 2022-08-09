@@ -8,7 +8,7 @@ The PTTC metric, as proposed by Wakabayashi et al. [Wakabayashi2003]_, constrain
 Then, the formula simplifies to
 
 .. math::
-		\mathit{PTTC}(A_1,A_2,t) = \frac{1}{a_2(t)} \left(-\dot{d} \pm \sqrt{\dot{d}^2 + 2 d}\right)
+		\mathit{PTTC}(A_1,A_2,t) = \frac{1}{a_2(t)} \left(-\dot{d} \pm \sqrt{\dot{d}^2 + 2 a_{2,\mathit{long}} d}\right)
 
 with :math:`\dot{d}= \dot{d}(p_1(t),p_2(t))` and :math:`d=d(p_1(t),p_2(t))` respectively. While imposing such constraints on the scenario type and the \acs{DMM}s of the actors reduces the computational cost of evaluating the metric, 
 its validity is significantly reduced compared to the general TTC.
