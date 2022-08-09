@@ -43,9 +43,9 @@ Symbols
 
 Within formulae, we use the following symbols:
 
-====================================  ================================================================================
+====================================  ===================================================================================================
 Symbol                                Meaning
-====================================  ================================================================================
+====================================  ===================================================================================================
 :math:`A_i`                           actor :math:`i`
 :math:`\mathcal{A}`                   set of all actors in a scene or scenario
 :math:`t_0`                           starting time of a scenario
@@ -54,7 +54,7 @@ Symbol                                Meaning
 :math:`t_H`                           a time horizon
 :math:`p_O(t)`                        position of object :math:`O` at time :math:`t`
 :math:`p_i(t)`                        position of actor :math:`i` at time :math:`t`
-:math:`p_{i,m}(t)`                    position of actor :math:`i` at time :math:`t` when conducting maneuver :math:`m`
+:math:`p_{i,m}(t,t')`                 position of actor :math:`i` at time :math:`t` when conducting maneuver :math:`m` at time :math:`t'`
 :math:`d(p_1(t),p_2(t))`              euclidean distance of :math:`p_1(t)` and :math:`p_2(t)`
 :math:`\dot{d}(p_1(t),p_2(t))`        derivative of euclidean distance :math:`d`
 :math:`v_i(t)`                        velocity of actor :math:`i` at time :math:`t`
@@ -81,7 +81,7 @@ Symbol                                Meaning
 :math:`\|\cdot\|_2`                   the euclidean norm
 :math:`\nu_{\mathit{long}}`           longitudinal component of a vector :math:`\nu`
 :math:`\nu_{\mathit{lat}}`            lateral component of a vector :math:`\nu`
-====================================  ================================================================================
+====================================  ===================================================================================================
 
 Metrics
 ~~~~~~~
