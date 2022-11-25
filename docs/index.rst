@@ -7,7 +7,7 @@ Criticality Metrics for Automated Vehicles
 Introduction
 ~~~~~~~~~~~~
 
-This page is supplementary material to the publication [Westhofen2021]_ and provides descriptions and evaluations of criticality metrics for automated vehicles.
+This page is supplementary material to the publication [Westhofen2022]_ and provides descriptions and evaluations of criticality metrics for automated vehicles.
 
 The descriptions and assessments arose from a systematic suitability analysis, which is described in detail in the reference.
 It considers multiple properties that were deemed relevant for a broad albeit abstract set of applications the authors have observed criticality metrics being used in.
