@@ -18,7 +18,7 @@ Due to the way this metric is defined, almost all properties depend on the speci
 Furthermore, while ethical questions play a role when defining any safety surrogate, it becomes more evident for potential functions, as an active decision making in the definition of the potentials is required.
 
 Properties
-~~~~~~~~~~~~~~~~~~~
+----------
 
 
 Run-time capability
