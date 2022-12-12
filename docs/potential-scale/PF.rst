@@ -16,8 +16,10 @@ However, methods involving the mentioned gradient descent to assess the critical
 
 Due to the way this metric is defined, almost all properties depend on the specified potential functions. 
 Furthermore, while ethical questions play a role when defining any safety surrogate, it becomes more evident for potential functions, as an active decision making in the definition of the potentials is required.
+
 Properties
-----------
+~~~~~~~~~~~~~~~~~~~
+
 
 Run-time capability
 ~~~~~~~~~~~~~~~~~~~
