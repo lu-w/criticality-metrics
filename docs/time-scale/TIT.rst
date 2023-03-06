@@ -9,7 +9,7 @@ Similar to the TET, the TIT [Minderhoud.2001]_ is a scenario level metric based 
 .. math::
 		\mathit{TIT}(A_1,A_2,\tau) = \int_{t_0}^{t_e} \mathbf{1}_{\mathit{TTC}(A_1,A_2,t) \le \tau}(\tau - \mathit{TTC}(A_1,A_2,t)) \mathrm{dt}.
 
-It aggregates the difference between the TTC and a target value :math:\tau` in the time interval :math:`[t_0, t_e]`.
+It aggregates the difference between the TTC and a target value :math:`\tau` in the time interval :math:`[t_0, t_e]`.
 Therefore, the metric reflects criticality more accurately than the TET.
 As for the TET, the construction of the TIT is independent of the TTC and can be adapted for other metrics.
 
