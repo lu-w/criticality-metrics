@@ -55,7 +55,7 @@ References
 .. [Nister2019] D\. Nistér, H.-L. Lee, J. Ng, and Y. Wang, “The safety force field,” White Paper, NVIDIA, Santa Clara, USA, Mar. 2019.
 .. [Ogawa2007] K\. Ogawa, “An analysis of traffic conflict phenomenon of bicycles using space occupancy index,” Journal of the Eastern Asia Society for Transportation Studies, vol. 7, pp. 1820–1827, 2007.
 .. [Oh2006] C\. Oh, S. Park, and S. G. Ritchie, “A method for identifying rear-end collision risks using inductive loop detectors,” Accident Analysis \& Prevention, vol. 38, no. 2, pp. 295–301, 2006.
-.. [Ozbay2008] K\. Ozbay, H. Yang, B. Bartin and S. Mudigonda, "Derivation and validation of new simulation-based surrogate safety measure", Transportation Research Record, pp. 105-113, 2008.
+.. [Ozbay2008] K\. Ozbay, H. Yang, B. Bartin and S. Mudigonda, "Derivation and validation of new simulation-based surrogate safety measure," Transportation Research Record, pp. 105-113, 2008.
 .. [Paul2020] M\. Paul and I. Ghosh, “Post encroachment time threshold identification for right-turn related crashes at unsignalized intersections on intercity highways under mixed traffic,” International Journal of Injury Control and Safety Promotion, vol. 27, pp. 121–135, Sept. 2019.
 .. [Peesapati2018] L\. N. Peesapati, M. P. Hunter, and M. O. Rodgers, “Can post encroachment time substitute intersection characteristics in crash prediction models?,” Journal of Safety Research, vol. 66, pp. 205–211, Sept. 2018.
 .. [Petzold2014] T\. Petzoldt, “On the relationship between pedestrian gap acceptance and time to arrival estimates,” Accident Analysis \& Prevention, vol. 72, pp. 127–133, 2014.
