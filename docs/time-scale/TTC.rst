@@ -11,11 +11,11 @@ It is defined by
 .. math::
 		\mathit{TTC}(A_1,A_2,t)  = \min \; (\{ \tilde{t} \ge 0 \,\mid\,  d(p_1(t+ \tilde{t}), p_2(t+ \tilde{t})) = 0 \} \cup \{ \infty \}).
 
-A variety of the TTC, called Modified-TTC, is extended under the name of CrI, where it is multiplied with a velocity-based severity estimate [ozbay2008derivation]_. 
+A variety of the TTC, called Modified-TTC, is extended under the name of CrI, where it is multiplied with a velocity-based severity estimate [Ozbay2008]_.
 
 
 For car following scenarios and from the point of view of a distinguished actor, the TTC delivers a quality estimate on the temporal proximity to a collision that is induced by a maneuver of an actors, e.g. by a braking maneuvers of a lead vehicle. 
-Its validity is however greatly reduced for most DMMs within intersection scenarios, cf. \autoref{fig:ttc-motivation}, as well as, if not meaningfully aggregated over actors, in multi actor scenes. 
+Its validity is however greatly reduced for most DMMs within intersection scenarios as well as, if not meaningfully aggregated over actors, in multi actor scenes.
 Furthermore, the resulting time still needs to be interpreted w.r.t. the abilities and environment of :math:`A_1`, either by using appropriate target values or composed metrics such as TTM. 
 
 
@@ -24,7 +24,7 @@ One possible aggregate of the TTC to the scenario level is the TTA metric which 
 .. math::
 	\mathit{TTA}(A_1, A_2) = \mathit{TTC}(A_1, A_2, t_{\mathit{evasive}})
 
-with :math:`t_{\mathit{evasive}}` being the first time where an evasive maneuver is performed [johnsson2018search]_. 
+with :math:`t_{\mathit{evasive}}` being the first time where an evasive maneuver is performed [Johnsson2018]_.
 Such aggregations over time can increase the TTC's validity when used for a retrospective assessment. 
 Further information is given when discussing the other two time aggregates of TTC in this work, TET and TIT.
 
