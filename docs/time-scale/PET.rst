@@ -6,10 +6,13 @@ Description
 
 The PET [Allen1978]_ has been widely used as metric for the a-posteriori analysis of traffic data [Laureshyn2010]_ [Peesapati2018]_ [Johnsson2018]_.
 The PET calculates the time gap between one actor leaving and another actor entering a designated conflict area.
-Assuming :math:`A_1` passes CA before :math:`A_2`, we define
+Assuming :math:`A_1` leaves CA before or at the time :math:`A_2` enters it (i.e., :math:`t_{\text{entry}}(A_2,\mathit{CA}) \geq t_{\text{exit}}(A_1,\mathit{CA})`), we define
 
 .. math::
 		\mathit{PET}(A_1,A_2,\mathit{CA}) = t_{\text{entry}}(A_2,\mathit{CA}) - t_{\text{exit}}(A_1,\mathit{CA})\,.
+
+Note that the PET is undefined for scenarios where the above assumption does not hold.
+This can happen if both actors have entered CA before any of them was able to leave it.
 
 Allen et al. also introduce two semi-predictive versions of the PET, called GT and IAPE, which inherit the properties of PET and are not considered any further here [Allen1978]_.
 Both metrics, GT and IAPE, measure :math:`t_{\text{exit}}(A_1,\mathit{CA})` and predict :math:`t_{\text{entry}}(A_2,\mathit{CA})` at different points in time using a constant velocity model.
