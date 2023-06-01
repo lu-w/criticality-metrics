@@ -13,6 +13,7 @@ Assuming :math:`A_1` leaves CA before or at the time :math:`A_2` enters it (i.e.
 
 Note that the PET is undefined for scenarios where the above assumption does not hold.
 This can happen if both actors have entered CA before any of them was able to leave it.
+Moreover, depending on the definition of CA, a PET of 0 might not indicate an accident [Laureshyn2010]_.
 
 Allen et al. also introduce two semi-predictive versions of the PET, called GT and IAPE, which inherit the properties of PET and are not considered any further here [Allen1978]_.
 Both metrics, GT and IAPE, measure :math:`t_{\text{exit}}(A_1,\mathit{CA})` and predict :math:`t_{\text{entry}}(A_2,\mathit{CA})` at different points in time using a constant velocity model.
