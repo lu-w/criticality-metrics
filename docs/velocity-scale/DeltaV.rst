@@ -9,12 +9,12 @@ Description
 Introduced in the 1970s [Carlson1979]_, it uses the difference in speed to estimate the probability of a severe injury or fatality:
 
 .. math::
-		\Delta v(A_1) = \|v_1(t_\mathit{aftercol})\|_2-\|v_1(t_\mathit{beforecol})\|_2.
+		\Delta v(A_1) = \|v_1(t_\mathit{aftercol}) - v_1(t_\mathit{beforecol})\|_2.
 
 A more complex formula for two actors taking the masses into account is given by
 
 .. math::
-		\Delta v(A_1, A_2, t) = \frac{m_2}{m_1+m_2}(\|v_2(t)\|_2-\|v_1(t)\|_2),
+		\Delta v(A_1, A_2, t) = \frac{m_2}{m_1+m_2}(\|v_2(t) - v_1(t)\|_2),
 
 for which also probabilistic studies have been done [Shelby2011]_.
 An extended :math:`\Delta v` measure, which is additionally considering the mass as well as the driving angles of the collision participants, has been discussed by Laureshyn et al. [Laureshyn2017]_.
