@@ -4,7 +4,7 @@ Required Lateral Acceleration (:math:`{a}_{\mathit{lat,req}}`)
 Description
 -----------
 
-Similar to the :doc:`required longitudinal acceleration<alongreq>`, the :math:`{a}_{\mathit{lat,req}}` [jansson_collision_2005]_ is defined as the minimal absolute lateral acceleration in either direction that is 
+Similar to the :doc:`required longitudinal acceleration<alongreq>`, the :math:`{a}_{\mathit{lat,req}}` [Jansson2005]_ is defined as the minimal absolute lateral acceleration in either direction that is 
 required for a steering maneuver to evade collision.
 For two actors :math:`A_1, A_2` at time :math:`t`, :math:`{a}_{\mathit{lat,req}}` measures the minimum absolute lateral acceleration required, on average, by actor :math:`A_1` to avoid a collision in the future:
 
